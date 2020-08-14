@@ -12,4 +12,4 @@ For a current preprint, click [here](https://www.biorxiv.org/content/10.1101/202
 
 I received my A.B. from Harvard in 2016, concentrating in Chemistry and Physics. I worked with Adam Cohen, developing computational pipelines for analyzing high-throughput single-cell electrophysiology data. My graduate research is supported by a Hertz Foundation Fellowship ([link](https://www.hertzfoundation.org/)).
 
-<img src="/images/Eli_Weinstein_square.jpg" alt="drawing" width="100">
+<img src="/images/Eli_Weinstein_square.jpg" alt="drawing" width="100" align="left" hspace="10">
