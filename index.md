@@ -1,4 +1,8 @@
-**Eli N. Weinstein**
+---
+layout: page
+---
+
+# Eli N. Weinstein
 
 I'm a 5th year PhD student in the Program in Biophysics at Harvard, advised by Debora Marks ([link](https://marks.hms.harvard.edu/index.html)) and Jeff Miller ([link](https://jwmi.github.io/)). I develop statistical tools for modern molecular biology, working primarily in the fields of Bayesian statistics, probabilistic machine learning, biophysics and genomics.
 
