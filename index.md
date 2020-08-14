@@ -6,7 +6,7 @@ layout: page
 
 <img src="/images/Eli_Weinstein_square.jpg" alt="drawing" width="100" align="left" hspace="10">
 
-I'm a 5th year PhD student in the Program in Biophysics at Harvard, advised by Debora Marks ([link](https://marks.hms.harvard.edu/index.html)) and Jeff Miller ([link](https://jwmi.github.io/)). I develop statistical tools for modern molecular biology, working primarily in the fields of Bayesian statistics, probabilistic machine learning, biophysics and genomics.
+I'm a 5th year PhD student in the Program in Biophysics at Harvard, advised by Debora Marks ([link](https://marks.hms.harvard.edu/index.html)) and Jeff Miller ([link](https://jwmi.github.io/)). I develop statistical tools for modern molecular biology, working in the fields of Bayesian statistics, probabilistic machine learning, biophysics and genomics.
 
 My primary theoretical interests are in the statistical foundations of computational biology, from the perspective of Bayesian methodology. My primary applied interests are in understanding complex biological sequence dynamics, especially over very short timescales (programmed mutagenesis systems) and very long timescales (the whole of evolution). Other research themes include model misspecification, approximate Bayesian inference, library design, and pathogen forecasting. I have an amateur interest in the intersection of molecular biology and public policy.
 
