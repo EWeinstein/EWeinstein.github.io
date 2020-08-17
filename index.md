@@ -13,3 +13,5 @@ My primary theoretical interests are in the statistical foundations of computati
 For a current preprint, click [here](https://www.biorxiv.org/content/10.1101/2020.07.31.231381v1). For a full list of publications, click [here](https://scholar.google.com/citations?user=Tkv7cWAAAAAJ&hl=en). Collaborators include Alan Amin ([link](https://ssqbiophd.hms.harvard.edu/faculty-staff/alan-amin)), Jonathan Frazer ([link](https://jonnyfrazer.github.io/)), June Shin ([link](https://ssqbiophd.hms.harvard.edu/faculty-staff/jung-eun-shin)), and Will Grathwohl ([link](http://www.cs.toronto.edu/~wgrathwohl/)).
 
 I received my A.B. from Harvard in 2016, concentrating in Chemistry and Physics. I worked with Adam Cohen, developing analysis methods for high-throughput single-cell electrophysiology data. My graduate research is supported by a Hertz Foundation Fellowship ([link](https://www.hertzfoundation.org/)).
+
+Email: eweinstein [at] g.harvard.edu
