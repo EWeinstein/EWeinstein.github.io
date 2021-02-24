@@ -21,7 +21,7 @@ Email: eweinstein [at] g.harvard.edu
 
 **Eli N. Weinstein**, Jonathan Frazer, Debora S. Marks. *Deconvolving fitness and phylogeny in generative models of molecular evolution*. Workshop on Learning Meaningful Representations of Life, NeurIPS 2020. [paper](https://drive.google.com/file/d/13w2ozka6VkL8rIKaZux2QwlfQUQmSn11/preview). [talk](https://slideslive.com/38941465/deconvolving-fitness-and-phylogeny-in-generative-models-of-molecular-evolution).
 
-Alan N. Amin*, **Eli N. Weinstein***, Jean Disset, Tessa D. Green, Debora S. Marks (*Equal contribution). *Scalable nonparametric Bayesian models that predict and generate genome sequences*. Workshop on Learning Meaningful Representations of Life, NeurIPS 2020. [paper](https://drive.google.com/file/d/1jgjhQU_p7fsZl61Z1HnVdifockMnz2Mv/preview?usp=drivesdk).
+Alan N. Amin\*, **Eli N. Weinstein\***, Jean Disset, Tessa D. Green, Debora S. Marks (\*Equal contribution). *Scalable nonparametric Bayesian models that predict and generate genome sequences*. Workshop on Learning Meaningful Representations of Life, NeurIPS 2020. [paper](https://drive.google.com/file/d/1jgjhQU_p7fsZl61Z1HnVdifockMnz2Mv/preview?usp=drivesdk).
 
 ### Publications
 My google scholar page is [here](https://scholar.google.com/citations?user=Tkv7cWAAAAAJ&hl=en).
