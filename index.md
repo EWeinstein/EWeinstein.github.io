@@ -19,7 +19,7 @@ Email: eweinstein [at] g.harvard.edu
 
 **Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* In submission. [preprint](https://arxiv.org/abs/2109.02712). [code](https://github.com/EWeinstein/data-selection).
 
-Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks (\*Equal contribution). *A generative nonparametric Bayesian model for whole genomes*. In submission. [preprint](https://www.biorxiv.org/content/10.1101/2021.05.30.446360v1). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).
+Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks (\*Equal contribution). *A generative nonparametric Bayesian model for whole genomes*. Accepted at NeurIPS (2021). [preprint](https://www.biorxiv.org/content/10.1101/2021.05.30.446360v1). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).
 
 **Eli N. Weinstein**, Debora S. Marks. *A structured observation distribution for generative biological sequence prediction and forecasting.* Proceedings of the 38th International Conference on Machine Learning (ICML). 2021. [paper](http://proceedings.mlr.press/v139/weinstein21a.html). [Pyro code](https://docs.pyro.ai/en/dev/contrib.mue.html). [Edward2 code](https://github.com/debbiemarkslab/MuE). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).
 
