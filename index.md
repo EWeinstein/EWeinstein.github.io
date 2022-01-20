@@ -17,11 +17,11 @@ Email: eweinstein [at] g.harvard.edu
 
 ### Selected publications and preprints
 
-**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* In submission. [preprint](https://www.biorxiv.org/content/10.1101/2021.10.28.466307v1). [code](https://github.com/debbiemarkslab/variational-synthesis).
-
 **Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* In submission. [preprint](https://arxiv.org/abs/2109.02712). [code](https://github.com/EWeinstein/data-selection).
 
-Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks (\*Equal contribution). *A generative nonparametric Bayesian model for whole genomes*. To appear at NeurIPS (2021). [preprint](https://www.biorxiv.org/content/10.1101/2021.05.30.446360v1). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).
+**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Accepted at AISTATS (2022). [preprint](https://www.biorxiv.org/content/10.1101/2021.10.28.466307v1). [code](https://github.com/debbiemarkslab/variational-synthesis).
+
+Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks (\*Equal contribution). *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).
 
 **Eli N. Weinstein**, Debora S. Marks. *A structured observation distribution for generative biological sequence prediction and forecasting.* Proceedings of the 38th International Conference on Machine Learning (ICML). 2021. [paper](http://proceedings.mlr.press/v139/weinstein21a.html). [Pyro code](https://docs.pyro.ai/en/dev/contrib.mue.html). [Edward2 code](https://github.com/debbiemarkslab/MuE). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).
 
