@@ -17,9 +17,9 @@ Email: eweinstein [at] g.harvard.edu
 
 ### Selected publications and preprints
 
-**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* In submission. [preprint](https://arxiv.org/abs/2109.02712). [code](https://github.com/EWeinstein/data-selection).
+**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* In submission. [preprint](https://arxiv.org/abs/2109.02712). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).
 
-**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks (\*Equal contribution). *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* In submission. [preprint](https://www.biorxiv.org/content/10.1101/2022.01.29.478324v1).
+**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks (\*Equal contribution). *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* In submission. [preprint](https://www.biorxiv.org/content/10.1101/2022.01.29.478324v1). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).
 
 **Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Accepted at AISTATS (2022). [preprint](https://www.biorxiv.org/content/10.1101/2021.10.28.466307v1). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).
 
