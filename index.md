@@ -15,9 +15,9 @@ Email: ew2760 [at] columbia.edu
 
 ### Selected publications and preprints
 
-**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks (\*Equal contribution). *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Accepted at NeurIPS 2022. [preprint](https://www.biorxiv.org/content/10.1101/2022.01.29.478324v1). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).
+**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks (\*Equal contribution). *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Accepted at NeurIPS 2022. **Oral presentation.** [preprint](https://www.biorxiv.org/content/10.1101/2022.01.29.478324v1). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).
 
-**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Accepted with minor revisions at the Journal of Machine Learning Research. [preprint](https://arxiv.org/abs/2109.02712). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).
+**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Accepted with minor revisions at the Journal of Machine Learning Research. **IBM Student Paper Award at NESS 2021.** [preprint](https://arxiv.org/abs/2109.02712). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).
 
 **Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).
 
