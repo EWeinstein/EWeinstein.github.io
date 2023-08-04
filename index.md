@@ -21,57 +21,57 @@ I am also interested in broader questions in Bayesian statistics and machine lea
 
 Email: ew2760 [at] columbia.edu
 
-### Publications and preprints
+## Publications and preprints
 \*Equal contribution (first or last author)
 
-#### Biological sequences
+### Biological sequences
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological Sequence Kernels with Guaranteed Flexibility.* 2023. In submission.  (Congratulations to Alan on receiving the MassMutual Student Research Award at the New England Statistics Symposium 2023 for this work). [paper](https://arxiv.org/abs/2304.03775). \
-We analyze the flexibility of kernels for biological sequences, which determines their reliability across many applications (Gaussian process regression, maximum mean discrepancy tests, etc.). 
-We find problems with many popular kernels, and propose simple fixes.
+*We analyze the flexibility of kernels for biological sequences, which determines their reliability across many applications (Gaussian process regression, maximum mean discrepancy tests, etc.). 
+We find problems with many popular kernels, and propose simple fixes.*
 
-Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A Kernelized Stein Discrepancy for Biological Sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).
-We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.
+Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A Kernelized Stein Discrepancy for Biological Sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
+*We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.*
 
 **Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks. *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Advances in Neural Information Processing Systems (NeurIPS). 2022. **Oral presentation.** [paper](https://openreview.net/pdf?id=CwG-o0ind6t). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).\
-We explore the fundamental limits of what generative sequence models can learn about protein evolution, and analyze the biophysical and statistical reasons for their success as fitness estimators.
+*We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their success as fitness estimators.*
 
 **Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
-We develop an experimental design strategy for efficiently synthesizing samples from generative sequence models in the laboratory (variational synthesis).
-At Jura Bio, we are using this method to build high quality, large scale libraries for therapeutic discovery.
+*We develop an experimental design strategy for efficiently synthesizing samples from generative sequence models in the laboratory (variational synthesis).
+At Jura Bio, we are using this method to build high quality, large scale libraries for therapeutic discovery.*
 
 Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
-We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
-We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.
+*We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
+We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.*
 
-**Eli N. Weinstein**, Debora S. Marks. *A structured observation distribution for generative biological sequence prediction and forecasting.* International Conference on Machine Learning (ICML). 2021. [paper](http://proceedings.mlr.press/v139/weinstein21a.html). [Pyro code](https://docs.pyro.ai/en/dev/contrib.mue.html). [Edward2 code](https://github.com/debbiemarkslab/MuE). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).
-We develop an observation distribution for biological sequences, which enables (for instance) regression from covariates to sequences.
-We apply this model to develop a generative forecast of viral evolution.
+**Eli N. Weinstein**, Debora S. Marks. *A structured observation distribution for generative biological sequence prediction and forecasting.* International Conference on Machine Learning (ICML). 2021. [paper](http://proceedings.mlr.press/v139/weinstein21a.html). [Pyro code](https://docs.pyro.ai/en/dev/contrib.mue.html). [Edward2 code](https://github.com/debbiemarkslab/MuE). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).\
+*We develop an observation distribution for biological sequences, which enables (for instance) regression from covariates to sequences.
+We apply this model to develop a generative forecast of viral evolution.*
 
-#### Bayesian methodology
+### Bayesian methodology
 
-**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. IBM Student Paper Award at the New England Statistics Symposium 2021, Contributed talk at the Your Model is Wrong workshop, NeurIPS 2021. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).
-We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.
+**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. IBM Student Paper Award at the New England Statistics Symposium 2021, Contributed talk at the Your Model is Wrong workshop, NeurIPS 2021. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
+*We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.*
 
-#### Collaborations / applications
+### Collaborations / applications
 
 Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: Exploring the Boundaries of Protein Language Models.* 2022. 
-[paper](https://arxiv.org/pdf/2206.13517.pdf)
-The team explored very large scale generative sequence models, trained on a massive sequence datasets. 
+[paper](https://arxiv.org/pdf/2206.13517.pdf)\
+*The team explored very large scale generative sequence models, trained on a massive sequence datasets. 
 The results they found were in line with the theory developed in [paper](https://openreview.net/pdf?id=CwG-o0ind6t).
-I contributed by helping to interpret and explain these results.
+I contributed by helping to interpret and explain these results.*
 
 David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, **Eli N Weinstein**, Debora S Marks, Michael T Laub. 
 *Co-evolution of interacting proteins through non-contacting and non-specific mutations.* Nature Ecology and Evolution. 2022.
-I contributed by helping to develop a statistical model for analyzing deep mutational scanning data. [paper]()
+I contributed by helping to develop a statistical model for analyzing deep mutational scanning data. [paper](https://www.nature.com/articles/s41559-022-01688-0)
 
 Evangelos Kiskinis\*, Joel M Kralj\*, Peng Zou\*, **Eli N Weinstein\***, Hongkang Zhang, Konstantinos Tsioras, Ole Wiskow, J Alberto Ortega, Kevin Eggan, Adam E Cohen.
-*All-optical electrophysiology for high-throughput functional characterization of a human iPSC-derived motor neuron model of ALS.* Stem Cell Reports. 2018
+*All-optical electrophysiology for high-throughput functional characterization of a human iPSC-derived motor neuron model of ALS.* Stem Cell Reports. 2018. [paper](https://www.sciencedirect.com/science/article/pii/S2213671118301887)\
 I contributed by building and applying a computational pipeline for analyzing high-throughput *in vitro* optical electrophysiology screening data.
-I also helped translate these ideas into the therapeutic discovery platform at Q-State Bioscience (now Quiver Biosciences) [link](https://www.quiverbioscience.com/).
+I also helped translate these and further ideas into the therapeutic discovery platform at Q-State Bioscience (now Quiver Biosciences) [link](https://www.quiverbioscience.com/).
 
 Shan Lou, Yoav Adam, **Eli N Weinstein**, Erika Williams, Katherine Williams, Vicente Parot, Nikita Kavokine, Stephen Liberles, Linda Madisen, Hongkui Zeng, Adam E Cohen.
-*Genetically targeted all-optical electrophysiology with a transgenic Cre-dependent optopatch mouse.* Journal of Neuroscience. 2016. [paper](https://www.jneurosci.org/content/36/43/11059?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_0)
+*Genetically targeted all-optical electrophysiology with a transgenic Cre-dependent optopatch mouse.* Journal of Neuroscience. 2016. [paper](https://www.jneurosci.org/content/36/43/11059?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_0)\
 I contributed by building and applying a computational pipeline for analyzing *in vivo* optical electrophysiology data.
 
 ### PhD Thesis
