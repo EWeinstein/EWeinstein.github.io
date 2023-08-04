@@ -10,13 +10,13 @@ layout: page
 I'm a postdoctoral research scientist working with David Blei ([link](http://www.cs.columbia.edu/~blei/)) at Columbia University. 
 I also consult at Jura Bio, a cell therapy startup ([link](https://www.jurabio.com/)). 
 Broadly, I work in the fields of machine learning and Bayesian statistics, and their application to biophysics and genomics.
-My current research seeks to develop new methods for causal inference from structured data, and to apply these methods to large scale genomic datasets to design novel therapeutic interventions.
 
 I received my PhD in Biophysics from Harvard University in 2022, advised by Debora Marks ([link](https://marks.hms.harvard.edu/index.html)) and working closely with Jeff Miller ([link](https://jwmi.github.io/)), as a Hertz Foundation Fellow ([link](https://www.hertzfoundation.org/)). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with Adam Cohen ([link](http://cohenweb.rc.fas.harvard.edu/)).
 
 Much of my research focuses on learning from biological sequence data, and especially methods involving generative sequence models. 
-I am also interested in broader questions in Bayesian statistics and machine learning, including especially model misspecification and generalized Bayesian methods.
+I am also interested in broader questions in Bayesian statistics and probabilistic machine learning, including especially model misspecification and generalized Bayesian methods.
+My current research seeks to develop new methods for causal inference from structured data, and to apply these methods to large scale genomic datasets to design novel therapeutic interventions.
 
 
 Email: ew2760 [at] columbia.edu
