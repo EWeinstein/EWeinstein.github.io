@@ -4,7 +4,7 @@ layout: page
 
 # Eli N. Weinstein
 
-<img src="/images/Eli_Weinstein_square.jpg" alt="drawing" width="100" align="left" hspace="10">
+<img src="/images/Eli_Weinstein_square.jpeg" alt="drawing" width="100" align="left" hspace="10">
 
 
 I'm a postdoctoral research scientist working with David Blei ([link](http://www.cs.columbia.edu/~blei/)) at Columbia University. 
@@ -23,6 +23,11 @@ Email: ew2760 [at] columbia.edu
 
 ## Publications and preprints
 \*Equal contribution (first or last author)
+
+### Bayesian methodology
+
+**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. IBM Student Paper Award at the New England Statistics Symposium 2021, Contributed talk at the Your Model is Wrong workshop, NeurIPS 2021. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
+*We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.*
 
 ### Biological sequences
 
@@ -47,11 +52,6 @@ We also apply this model to develop goodness-of-fit and two-sample tests for bio
 **Eli N. Weinstein**, Debora S. Marks. *A structured observation distribution for generative biological sequence prediction and forecasting.* International Conference on Machine Learning (ICML). 2021. [paper](http://proceedings.mlr.press/v139/weinstein21a.html). [Pyro code](https://docs.pyro.ai/en/dev/contrib.mue.html). [Edward2 code](https://github.com/debbiemarkslab/MuE). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).\
 *We develop an observation distribution for biological sequences, which enables (for instance) regression from covariates to sequences.
 We apply this model to develop a generative forecast of viral evolution.*
-
-### Bayesian methodology
-
-**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. IBM Student Paper Award at the New England Statistics Symposium 2021, Contributed talk at the Your Model is Wrong workshop, NeurIPS 2021. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
-*We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.*
 
 ### Collaborations / applications
 
