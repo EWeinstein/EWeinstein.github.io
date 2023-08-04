@@ -4,7 +4,7 @@ layout: page
 
 # Eli N. Weinstein
 
-<img src="/images/Eli_Weinstein_square.jpeg" alt="drawing" width="100" align="left" hspace="10">
+<img src="/images/Eli_Weinstein_square.jpeg" alt="drawing" width="150" align="left" hspace="10">
 
 
 I'm a postdoctoral research scientist working with David Blei ([link](http://www.cs.columbia.edu/~blei/)) at Columbia University. 
