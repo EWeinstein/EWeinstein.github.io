@@ -58,17 +58,17 @@ We apply this model to develop a generative forecast of viral evolution.*
 Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: Exploring the Boundaries of Protein Language Models.* 2022. 
 [paper](https://arxiv.org/pdf/2206.13517.pdf)\
 *The team explored very large scale generative sequence models, trained on a massive sequence datasets. 
-The results they found were in line with the theory developed in [paper](https://openreview.net/pdf?id=CwG-o0ind6t).
+The results they found were in line with the theory developed in our previous [paper](https://openreview.net/pdf?id=CwG-o0ind6t).
 I contributed by helping to interpret and explain these results.*
 
 David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, **Eli N Weinstein**, Debora S Marks, Michael T Laub. 
-*Co-evolution of interacting proteins through non-contacting and non-specific mutations.* Nature Ecology and Evolution. 2022.
-I contributed by helping to develop a statistical model for analyzing deep mutational scanning data. [paper](https://www.nature.com/articles/s41559-022-01688-0)
+*Co-evolution of interacting proteins through non-contacting and non-specific mutations.* Nature Ecology and Evolution. 2022. [paper](https://www.nature.com/articles/s41559-022-01688-0)\
+*I contributed by helping to develop a statistical model for analyzing deep mutational scanning data.* 
 
 Evangelos Kiskinis\*, Joel M Kralj\*, Peng Zou\*, **Eli N Weinstein\***, Hongkang Zhang, Konstantinos Tsioras, Ole Wiskow, J Alberto Ortega, Kevin Eggan, Adam E Cohen.
 *All-optical electrophysiology for high-throughput functional characterization of a human iPSC-derived motor neuron model of ALS.* Stem Cell Reports. 2018. [paper](https://www.sciencedirect.com/science/article/pii/S2213671118301887)\
 I contributed by building and applying a computational pipeline for analyzing high-throughput *in vitro* optical electrophysiology screening data.
-I also helped translate these and further ideas into the therapeutic discovery platform at Q-State Bioscience (now Quiver Biosciences) [link](https://www.quiverbioscience.com/).
+I also helped translate these tools, together with machine learning techniques, into the therapeutic discovery platform at Q-State Bioscience (now Quiver Biosciences) [link](https://www.quiverbioscience.com/).
 
 Shan Lou, Yoav Adam, **Eli N Weinstein**, Erika Williams, Katherine Williams, Vicente Parot, Nikita Kavokine, Stephen Liberles, Linda Madisen, Hongkui Zeng, Adam E Cohen.
 *Genetically targeted all-optical electrophysiology with a transgenic Cre-dependent optopatch mouse.* Journal of Neuroscience. 2016. [paper](https://www.jneurosci.org/content/36/43/11059?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_0)\
