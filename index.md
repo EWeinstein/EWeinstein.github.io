@@ -33,7 +33,7 @@ Email: ew2760 [at] columbia.edu
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological Sequence Kernels with Guaranteed Flexibility.* 2023. In submission.  (Congratulations to Alan on receiving the MassMutual Student Research Award at the New England Statistics Symposium 2023 for this work). [paper](https://arxiv.org/abs/2304.03775). \
 *We analyze the flexibility of kernels for biological sequences, which determines their reliability across many applications (Gaussian process regression, maximum mean discrepancy tests, etc.). 
-We find problems with many popular kernels, and propose simple fixes.*
+We find problems with many popular kernels, and propose fixes.*
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A Kernelized Stein Discrepancy for Biological Sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
 *We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.*
