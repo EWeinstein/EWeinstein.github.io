@@ -68,7 +68,7 @@ David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, **Eli N Weinstein**, De
 Evangelos Kiskinis\*, Joel M Kralj\*, Peng Zou\*, **Eli N Weinstein\***, Hongkang Zhang, Konstantinos Tsioras, Ole Wiskow, J Alberto Ortega, Kevin Eggan, Adam E Cohen.
 *All-optical electrophysiology for high-throughput functional characterization of a human iPSC-derived motor neuron model of ALS.* Stem Cell Reports. 2018. [paper](https://www.sciencedirect.com/science/article/pii/S2213671118301887)\
 *I contributed by building and applying a computational pipeline for analyzing high-throughput in vitro optical electrophysiology screening data.
-I also helped translate these tools, together with machine learning techniques, into the therapeutic discovery platform at Q-State Bioscience (now Quiver Biosciences) [link](https://www.quiverbioscience.com/).*
+I also helped translate these tools, together with additional machine learning techniques, into the therapeutic discovery platform at Q-State Bioscience (now Quiver Biosciences) [link](https://www.quiverbioscience.com/).*
 
 Shan Lou, Yoav Adam, **Eli N Weinstein**, Erika Williams, Katherine Williams, Vicente Parot, Nikita Kavokine, Stephen Liberles, Linda Madisen, Hongkui Zeng, Adam E Cohen.
 *Genetically targeted all-optical electrophysiology with a transgenic Cre-dependent optopatch mouse.* Journal of Neuroscience. 2016. [paper](https://www.jneurosci.org/content/36/43/11059?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_0)\
