@@ -15,7 +15,7 @@ I received my PhD in Biophysics from Harvard University in 2022, advised by [Deb
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
 
 My research spans from theoretical machine learning to applied computational biology. 
-I am broadly motivated by the goal of understanding and strengthening the foundations of modern computational biology,
+I am broadly motivated by foundational methodological questions in computational biology,
 especially synthetic biology. If you would like to learn about some of my recent work, I recommend my papers on 
 [hierarchical causal models](https://arxiv.org/abs/2401.05330) or [variational DNA synthesis](https://proceedings.mlr.press/v151/weinstein22a).
 
