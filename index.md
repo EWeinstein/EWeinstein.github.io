@@ -15,7 +15,7 @@ I received my PhD in Biophysics from Harvard University in 2022, advised by [Deb
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
 
 My research spans from theoretical machine learning to applied computational biology. 
-I am broadly motivated by foundational methodological questions in computational biology,
+I am especially motivated by foundational methodological questions in computational biology,
 especially synthetic biology. If you would like to learn about some of my recent work, I recommend my papers on 
 [hierarchical causal models](https://arxiv.org/abs/2401.05330) or [variational DNA synthesis](https://proceedings.mlr.press/v151/weinstein22a).
 
@@ -30,7 +30,7 @@ Email: ew2760 [at] columbia.edu
 **Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. In submission. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
 <sub>We develop methods to draw causal inferences from nested data.</sub>
 
-**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. IBM Student Paper Award at the New England Statistics Symposium 2021, Contributed talk at the Your Model is Wrong workshop, NeurIPS 2021. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
+**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. (IBM Student Paper Award at the New England Statistics Symposium 2021, Contributed talk at the Your Model is Wrong workshop, NeurIPS 2021.) [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
 <sub>We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.</sub>
 
 ### Methodology for biological sequences
