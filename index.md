@@ -16,7 +16,7 @@ I received my A.B. in Chemistry and Physics with highest honors from Harvard in 
 
 My research spans from theoretical machine learning to applied computational biology. 
 I am especially motivated by foundational methodological questions in computational biology,
-especially synthetic biology. If you would like to learn about some of my recent work, I recommend my papers on 
+particularly in synthetic biology. If you would like to learn about some of my recent work, I recommend my papers on 
 [hierarchical causal models](https://arxiv.org/abs/2401.05330) or [variational DNA synthesis](https://proceedings.mlr.press/v151/weinstein22a).
 
 
