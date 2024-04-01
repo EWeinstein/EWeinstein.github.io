@@ -59,8 +59,8 @@ We apply this model to develop a generative forecast of viral antigen evolution.
 
 ### Collaborations / applications
 
-Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: Exploring the Boundaries of Protein Language Models.* 2022. 
-[paper](https://arxiv.org/pdf/2206.13517.pdf)\
+Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: Exploring the Boundaries of Protein Language Models.* Cell Systems. 2023. 
+[paper](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7)\
 <sub>The team explored very large scale generative sequence models, trained on a massive sequence datasets. 
 The results they found were in line with the theory developed in our previous [paper](https://openreview.net/pdf?id=CwG-o0ind6t).
 I contributed by helping to interpret and explain these results.</sub>
