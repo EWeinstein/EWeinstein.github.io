@@ -9,16 +9,16 @@ layout: page
 
 I'm a postdoctoral research scientist working with [David Blei](http://www.cs.columbia.edu/~blei/) at Columbia University. 
 I also lead machine learning research at [Jura Bio](https://www.jura.bio), a genomic medicines startup. 
-Broadly, I work in the fields of probabilistic machine learning and Bayesian statistics, and their application to biophysics and genomics.
+Broadly, I work in probabilistic machine learning and its application to biology.
 
-I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and working closely with [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
+I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
 
-My research spans from theoretical machine learning to applied computational biology. 
-I am especially motivated by foundational methodological questions in computational biology,
-particularly in synthetic biology. If you would like to learn about some of my recent work, I recommend my papers on 
+I develop methods to learn from complex biological data, and translate this knowledge into experimental designs and interventions.
+If you would like to learn about some of my recent work, I recommend my papers on 
 [hierarchical causal models](https://arxiv.org/abs/2401.05330) or [variational DNA synthesis](https://proceedings.mlr.press/v151/weinstein22a).
 
+**I am on the 2024-2025 academic job market.**
 
 Email: ew2760 [at] columbia.edu
 
@@ -35,6 +35,12 @@ Email: ew2760 [at] columbia.edu
 
 ### Methodology for biological sequences
 
+**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-Aware Generative Model Architectures Enable Biological Sequence Design and Synthesis at Petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v1). [blog](https://www.jura.bio/blog/variationalsynthesis).\
+<sub>We develop a method to reduce the cost of synthesizing proteins and other biological sequences designed by a 
+generative model by as much as a trillion-fold. This work experimentally implements *variational synthesis*, which we proposed [here](https://proceedings.mlr.press/v151/weinstein22a). 
+At Jura Bio, we are using variational synthesis to build high quality, large scale libraries for therapeutic discovery.</sub>
+
+
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological Sequence Kernels with Guaranteed Flexibility.* 2023. In submission.  (Alan won the MassMutual Student Research Award at the New England Statistics Symposium 2023 for this work). [paper](https://arxiv.org/abs/2304.03775). \
 <sub>We analyze the flexibility of kernels for biological sequences. 
 We find problems with many popular kernels, and propose fixes.</sub>
@@ -46,8 +52,7 @@ Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A Kernelized Stein Dis
 <sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.</sub>
 
 **Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
-<sub>We develop an experimental design strategy for efficiently synthesizing samples from generative sequence models in the laboratory (variational synthesis).
-At Jura Bio, we are using this method to build high quality, large scale libraries for therapeutic discovery.</sub>
+<sub>We develop an experimental design strategy for efficiently synthesizing samples from generative sequence models in the laboratory, *variational synthesis*.</sub>
 
 Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
 <sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
