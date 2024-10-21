@@ -37,6 +37,13 @@ A workshop version was selected for a contributed talk at the Your Model is Wron
 
 ### Methodology for biological sequences
 
+
+**Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the Causal Effects of T Cell Receptors*. 2024. In submission. 
+[paper](https://arxiv.org/abs/2410.14127).\
+<sub>We develop a method to estimate the effect on patient outcomes of giving them T cells with a specific TCR.
+The method uses only observational repertoire sequencing and clinical outcomes data. 
+It applies [hierarchical causal models](https://arxiv.org/abs/2401.05330).<sub>
+
 **Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-Aware Generative Model Architectures Enable Biological Sequence Design and Synthesis at Petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2). [blog](https://www.jura.bio/blog/variationalsynthesis).\
 <sub>We develop a method to reduce the cost of synthesizing proteins and other biological sequences designed by a 
 generative model by as much as a trillion-fold. This work experimentally implements *variational synthesis*, which we proposed [here](https://proceedings.mlr.press/v151/weinstein22a). 
