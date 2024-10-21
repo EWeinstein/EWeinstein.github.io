@@ -25,29 +25,38 @@ Email: ew2760 [at] columbia.edu
 ## Publications and preprints
 \*Equal contribution (first or last author)
 
-### General machine learning methodology
+### Experimental Design
+
+**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-Aware Generative Model Architectures Enable Biological Sequence Design and Synthesis at Petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2). [blog](https://www.jura.bio/blog/variationalsynthesis).\
+<sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
+generative model by as much as a trillion-fold. This work implements variational synthesis (below) in the laboratory. 
+At Jura Bio, we are using it for therapeutic discovery.</sub>
+
+**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
+<sub>We develop variational synthesis, a method to efficiently synthesize samples from generative sequence models in the real world.</sub>
+
+### Causal Inference
+
+**Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the Causal Effects of T Cell Receptors*. 2024. In submission. 
+[paper](https://arxiv.org/abs/2410.14127).\
+<sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work applies hierarchical causal models (below).<sub>
 
 **Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. In submission. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
 <sub>We develop methods to draw causal inferences from nested data.</sub>
+
+### Misspecified models
 
 **Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
 <sub>We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.
 This work received the best student paper award at the New England Statistics Symposium, 2021. 
 A workshop version was selected for a contributed talk at the Your Model is Wrong workshop, NeurIPS 2021.</sub>
 
-### Methodology for biological sequences
+**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks. *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Advances in Neural Information Processing Systems (NeurIPS). 2022. [paper](https://openreview.net/pdf?id=CwG-o0ind6t). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).\
+<sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.
+This paper won an oral presentation at NeurIPS.</sub>
 
+### Nonparametric methods for sequence data
 
-**Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the Causal Effects of T Cell Receptors*. 2024. In submission. 
-[paper](https://arxiv.org/abs/2410.14127).\
-<sub>We develop a method to estimate the effect on patient outcomes of giving them T cells with a specific TCR.
-The method uses only observational repertoire sequencing and clinical outcomes data. 
-It applies [hierarchical causal models](https://arxiv.org/abs/2401.05330).<sub>
-
-**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-Aware Generative Model Architectures Enable Biological Sequence Design and Synthesis at Petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2). [blog](https://www.jura.bio/blog/variationalsynthesis).\
-<sub>We develop a method to reduce the cost of synthesizing proteins and other biological sequences designed by a 
-generative model by as much as a trillion-fold. This work experimentally implements *variational synthesis*, which we proposed [here](https://proceedings.mlr.press/v151/weinstein22a). 
-At Jura Bio, we are using variational synthesis to build high quality, large scale libraries for therapeutic discovery.</sub>
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological Sequence Kernels with Guaranteed Flexibility.* 2023. In submission. [paper](https://arxiv.org/abs/2304.03775). \
 <sub>We analyze the flexibility of kernels for biological sequences. 
@@ -57,22 +66,11 @@ Alan won the best student paper award at the New England Statistics Symposium 20
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A Kernelized Stein Discrepancy for Biological Sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
 <sub>We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.</sub>
 
-**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks. *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Advances in Neural Information Processing Systems (NeurIPS). 2022. [paper](https://openreview.net/pdf?id=CwG-o0ind6t). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).\
-<sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.
-This paper won an oral presentation at NeurIPS.</sub>
-
-**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
-<sub>We develop an experimental design strategy for efficiently synthesizing samples from generative sequence models in the laboratory, *variational synthesis*.</sub>
-
 Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
 <sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
 We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.</sub>
 
-**Eli N. Weinstein**, Debora S. Marks. *A structured observation distribution for generative biological sequence prediction and forecasting.* International Conference on Machine Learning (ICML). 2021. [paper](http://proceedings.mlr.press/v139/weinstein21a.html). [Pyro code](https://docs.pyro.ai/en/dev/contrib.mue.html). [Edward2 code](https://github.com/debbiemarkslab/MuE). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).\
-<sub>We develop an observation distribution for biological sequences, which enables (for instance) regression from covariates to sequences.
-We apply this model to develop a generative forecast of viral antigen evolution.</sub>
-
-### Collaborations / applications
+### Additional work
 
 Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: Exploring the Boundaries of Protein Language Models.* Cell Systems. 2023. 
 [paper](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7)\
@@ -83,6 +81,10 @@ I contributed by helping to interpret and explain these results.</sub>
 David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, **Eli N Weinstein**, Debora S Marks, Michael T Laub. 
 *Co-evolution of interacting proteins through non-contacting and non-specific mutations.* Nature Ecology and Evolution. 2022. [paper](https://www.nature.com/articles/s41559-022-01688-0)\
 <sub>The team performed one of the first deep mutational scans of a protein-protein interaction. I helped build the Bayesian model used to analyze the data.</sub>
+
+**Eli N. Weinstein**, Debora S. Marks. *A structured observation distribution for generative biological sequence prediction and forecasting.* International Conference on Machine Learning (ICML). 2021. [paper](http://proceedings.mlr.press/v139/weinstein21a.html). [Pyro code](https://docs.pyro.ai/en/dev/contrib.mue.html). [Edward2 code](https://github.com/debbiemarkslab/MuE). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s).\
+<sub>We develop an observation distribution for biological sequences, which enables (for instance) regression from covariates to sequences.
+We apply this model to develop a generative forecast of viral antigen evolution.</sub>
 
 Evangelos Kiskinis\*, Joel M Kralj\*, Peng Zou\*, **Eli N Weinstein\***, Hongkang Zhang, Konstantinos Tsioras, Ole Wiskow, J Alberto Ortega, Kevin Eggan, Adam E Cohen.
 *All-optical electrophysiology for high-throughput functional characterization of a human iPSC-derived motor neuron model of ALS.* Stem Cell Reports. 2018. [paper](https://www.sciencedirect.com/science/article/pii/S2213671118301887)\
