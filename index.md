@@ -11,12 +11,12 @@ I'm a postdoctoral research scientist working with [David Blei](http://www.cs.co
 I also lead machine learning research at [Jura Bio](https://www.jura.bio), a genomic medicines startup. 
 Broadly, I work in probabilistic machine learning and its application to biology.
 
+If you would like to learn about some of my recent work, I recommend my papers on 
+[hierarchical causal models](https://arxiv.org/abs/2401.05330) and their application to [immune receptors](https://arxiv.org/abs/2410.14127), 
+or on [optimized stochastic manufacturing](https://proceedings.mlr.press/v151/weinstein22a) and its application to [DNA synthesis](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
+
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
-
-I develop methods to learn from complex biological data, and translate this knowledge into experimental designs and interventions.
-If you would like to learn about some of my recent work, I recommend my papers on 
-[hierarchical causal models](https://arxiv.org/abs/2401.05330) or [variational DNA synthesis](https://proceedings.mlr.press/v151/weinstein22a).
 
 **I am on the 2024-2025 academic job market.**
 
@@ -33,13 +33,13 @@ generative model by as much as a trillion-fold. This work implements variational
 At Jura Bio, we are using it for therapeutic discovery.</sub>
 
 **Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
-<sub>We develop variational synthesis, a method to efficiently synthesize samples from generative sequence models in the real world.</sub>
+<sub>We develop a method to efficiently manufacture samples from generative models in the real world.</sub>
 
 ### Causal Inference
 
 **Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the Causal Effects of T Cell Receptors*. 2024. In submission. 
 [paper](https://arxiv.org/abs/2410.14127).\
-<sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work applies hierarchical causal models (below).<sub>
+<sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work uses hierarchical causal models (below).<sub>
 
 **Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. In submission. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
 <sub>We develop methods to draw causal inferences from nested data.</sub>
