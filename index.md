@@ -27,7 +27,7 @@ Email: ew2760 [at] columbia.edu
 
 ### Experimental Design
 
-**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-Aware Generative Model Architectures Enable Biological Sequence Design and Synthesis at Petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2). [blog](https://www.jura.bio/blog/variationalsynthesis).\
+**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2). [blog](https://www.jura.bio/blog/variationalsynthesis).\
 <sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
 generative model by as much as a trillion-fold. This work implements variational synthesis (below) in the laboratory. 
 At Jura Bio, we are using it for therapeutic discovery.</sub>
@@ -37,7 +37,7 @@ At Jura Bio, we are using it for therapeutic discovery.</sub>
 
 ### Causal Inference
 
-**Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the Causal Effects of T Cell Receptors*. 2024. In submission. 
+**Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the causal effects of T cell receptors*. 2024. In submission. 
 [paper](https://arxiv.org/abs/2410.14127).\
 <sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work uses hierarchical causal models (below).<sub>
 
@@ -58,12 +58,12 @@ This paper won an oral presentation at NeurIPS.</sub>
 ### Nonparametric methods for sequence data
 
 
-Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological Sequence Kernels with Guaranteed Flexibility.* 2023. In submission. [paper](https://arxiv.org/abs/2304.03775). \
+Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological sequence kernels with guaranteed flexibility.* 2023. In submission. [paper](https://arxiv.org/abs/2304.03775). \
 <sub>We analyze the flexibility of kernels for biological sequences. 
 We find problems with many popular kernels, and propose fixes.
 Alan won the best student paper award at the New England Statistics Symposium 2023 for this work.</sub>
 
-Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A Kernelized Stein Discrepancy for Biological Sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
+Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A kernelized Stein discrepancy for biological sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
 <sub>We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.</sub>
 
 Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
@@ -72,7 +72,7 @@ We also apply this model to develop goodness-of-fit and two-sample tests for bio
 
 ### Additional work
 
-Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: Exploring the Boundaries of Protein Language Models.* Cell Systems. 2023. 
+Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: exploring the boundaries of protein language models.* Cell Systems. 2023. 
 [paper](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7)\
 <sub>The team explored very large scale generative sequence models, trained on a massive sequence datasets. 
 The results they found were in line with the theory developed in our previous [paper](https://openreview.net/pdf?id=CwG-o0ind6t).
