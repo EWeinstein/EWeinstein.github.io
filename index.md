@@ -13,7 +13,8 @@ Broadly, I work in probabilistic machine learning and its application to biology
 
 If you would like to learn about some of my recent work, I recommend my papers on 
 [hierarchical causal models](https://arxiv.org/abs/2401.05330) and their application to [immune receptors](https://arxiv.org/abs/2410.14127), 
-or on [optimized stochastic manufacturing](https://proceedings.mlr.press/v151/weinstein22a) and its application to [DNA synthesis](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
+or on [experimental design for stochastic manufacturing](https://proceedings.mlr.press/v151/weinstein22a) 
+and its application to [DNA synthesis](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
 
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
