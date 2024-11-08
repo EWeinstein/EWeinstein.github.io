@@ -43,14 +43,14 @@ Email: ew2760 [at] columbia.edu
 **Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
 <sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
 generative model by as much as a trillion-fold. This work implements variational synthesis (above) in the laboratory. 
-At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won the best paper award (top 4) at 
+At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
 the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
 ### Misspecified models
 
 **Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
 <sub>We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.
-This work received the best student paper award at the New England Statistics Symposium, 2021. 
+This work received a best student paper award at the New England Statistics Symposium, 2021. 
 A workshop version was selected for a contributed talk at the Your Model is Wrong workshop, NeurIPS 2021.</sub>
 
 **Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks. *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Advances in Neural Information Processing Systems (NeurIPS). 2022. [paper](https://openreview.net/pdf?id=CwG-o0ind6t). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).\
@@ -63,7 +63,7 @@ This paper won an oral presentation at NeurIPS.</sub>
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological sequence kernels with guaranteed flexibility.* 2023. In submission. [paper](https://arxiv.org/abs/2304.03775). \
 <sub>We analyze the flexibility of kernels for biological sequences. 
 We find problems with many popular kernels, and propose fixes.
-Alan won the best student paper award at the New England Statistics Symposium 2023 for this work.</sub>
+Alan won a best student paper award at the New England Statistics Symposium 2023 for this work.</sub>
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A kernelized Stein discrepancy for biological sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
 <sub>We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.</sub>
