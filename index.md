@@ -7,17 +7,17 @@ layout: page
 <img src="/images/Eli_Weinstein_square.jpeg" alt="drawing" width="150" align="left" hspace="10">
 
 
-I'm a postdoctoral research scientist working with [David Blei](http://www.cs.columbia.edu/~blei/) at Columbia University. 
-I also lead machine learning research at [Jura Bio](https://www.jura.bio), a genomic medicines startup. 
-Broadly, I work in probabilistic machine learning and its application to biology.
+I'm a postdoctoral research scientist with [David Blei](http://www.cs.columbia.edu/~blei/) at Columbia University.
+Broadly, I work in probabilistic machine learning and its application to the natural sciences.
 
 If you would like to learn about some of my recent work, I recommend my papers on 
-[hierarchical causal models](https://arxiv.org/abs/2401.05330) and their application to [immune receptors](https://arxiv.org/abs/2410.14127), 
-or on [experimental design for stochastic manufacturing](https://proceedings.mlr.press/v151/weinstein22a) 
+[hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application to [immune receptors](https://arxiv.org/abs/2410.14127), 
+or on [experimental design](https://proceedings.mlr.press/v151/weinstein22a) 
 and its application to [DNA synthesis](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
 
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
+I currently also lead machine learning research at [Jura Bio](https://www.jura.bio), a genomic medicines startup. 
 
 **I am on the 2024-2025 academic job market.**
 
@@ -35,17 +35,6 @@ Email: ew2760 [at] columbia.edu
 [paper](https://arxiv.org/abs/2410.14127).\
 <sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work uses hierarchical causal models (above).<sub>
 
-### Experimental Design
-
-**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
-<sub>We develop an experimental design method to efficiently manufacture samples from generative models in the real world.</sub>
-
-**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
-<sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
-generative model by as much as a trillion-fold. This work implements variational synthesis (above) in the laboratory. 
-At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
-the Molecular Machine Learning Conference (MoML) 2024.</sub>
-
 ### Misspecified models
 
 **Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
@@ -56,6 +45,18 @@ A workshop version was selected for a contributed talk at the Your Model is Wron
 **Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks. *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Advances in Neural Information Processing Systems (NeurIPS). 2022. [paper](https://openreview.net/pdf?id=CwG-o0ind6t). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).\
 <sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.
 This paper won an oral presentation at NeurIPS.</sub>
+
+
+### Experimental Design
+
+**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
+<sub>We develop an experimental design method to efficiently manufacture samples from generative models in the real world.</sub>
+
+**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
+<sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
+generative model by as much as a trillion-fold. This work implements variational synthesis (above) in the laboratory. 
+At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
+the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
 ### Nonparametric methods for sequence data
 
