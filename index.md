@@ -17,7 +17,7 @@ and its application to [DNA synthesis](https://www.biorxiv.org/content/10.1101/2
 
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
-I currently also lead machine learning research at [Jura Bio](https://www.jura.bio), a genomic medicines startup. 
+I lead machine learning research at [Jura Bio](https://www.jura.bio), a genomic medicines startup. 
 
 **I am on the 2024-2025 academic job market.**
 
@@ -46,17 +46,19 @@ A workshop version was selected for a contributed talk at the Your Model is Wron
 <sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.
 This paper won an oral presentation at NeurIPS.</sub>
 
+Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* 2024. In submission. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
+<sub>We develop a technique to robustify Bayesian models, guarding against model misspecification while preserving data efficiency.<sub>
 
 ### Experimental Design
-
-**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
-<sub>We develop an experimental design method to efficiently manufacture samples from generative models in the real world.</sub>
 
 **Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
 <sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
 generative model by as much as a trillion-fold. This work implements variational synthesis (above) in the laboratory. 
 At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
 the Molecular Machine Learning Conference (MoML) 2024.</sub>
+
+**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
+<sub>We develop an experimental design method to efficiently manufacture samples from generative models in the real world.</sub>
 
 ### Nonparametric methods for sequence data
 
@@ -75,13 +77,13 @@ We also apply this model to develop goodness-of-fit and two-sample tests for bio
 
 ### Additional work
 
-Erik Nijkamp, Jeffrey Ruffolo, **Eli N Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: exploring the boundaries of protein language models.* Cell Systems. 2023. 
+Erik Nijkamp, Jeffrey Ruffolo, **Eli N. Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: exploring the boundaries of protein language models.* Cell Systems. 2023. 
 [paper](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7)\
 <sub>The team explored very large scale generative sequence models, trained on a massive sequence datasets. 
 The results they found were in line with the theory developed in our previous [paper](https://openreview.net/pdf?id=CwG-o0ind6t).
 I contributed by helping to interpret and explain these results.</sub>
 
-David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, **Eli N Weinstein**, Debora S Marks, Michael T Laub. 
+David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, **Eli N. Weinstein**, Debora S Marks, Michael T Laub. 
 *Co-evolution of interacting proteins through non-contacting and non-specific mutations.* Nature Ecology and Evolution. 2022. [paper](https://www.nature.com/articles/s41559-022-01688-0)\
 <sub>The team performed one of the first deep mutational scans of a protein-protein interaction. I helped build the Bayesian model used to analyze the data.</sub>
 
@@ -89,12 +91,12 @@ David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, **Eli N Weinstein**, De
 <sub>We develop an observation distribution for biological sequences, which enables (for instance) regression from covariates to sequences.
 We apply this model to develop a generative forecast of viral antigen evolution.</sub>
 
-Evangelos Kiskinis\*, Joel M Kralj\*, Peng Zou\*, **Eli N Weinstein\***, Hongkang Zhang, Konstantinos Tsioras, Ole Wiskow, J Alberto Ortega, Kevin Eggan, Adam E Cohen.
+Evangelos Kiskinis\*, Joel M Kralj\*, Peng Zou\*, **Eli N. Weinstein\***, Hongkang Zhang, Konstantinos Tsioras, Ole Wiskow, J Alberto Ortega, Kevin Eggan, Adam E Cohen.
 *All-optical electrophysiology for high-throughput functional characterization of a human iPSC-derived motor neuron model of ALS.* Stem Cell Reports. 2018. [paper](https://www.sciencedirect.com/science/article/pii/S2213671118301887)\
 <sub>The team developed a high-throughput screening platform for measuring the electrophysiological properties of human neurons. I built a computational pipeline for analyzing the data.
 I also helped translate these tools, together with additional machine learning techniques, into the therapeutic discovery platform at Q-State Biosciences (now [Quiver Biosciences](https://www.quiverbioscience.com/)).</sub>
 
-Shan Lou, Yoav Adam, **Eli N Weinstein**, Erika Williams, Katherine Williams, Vicente Parot, Nikita Kavokine, Stephen Liberles, Linda Madisen, Hongkui Zeng, Adam E Cohen.
+Shan Lou, Yoav Adam, **Eli N. Weinstein**, Erika Williams, Katherine Williams, Vicente Parot, Nikita Kavokine, Stephen Liberles, Linda Madisen, Hongkui Zeng, Adam E Cohen.
 *Genetically targeted all-optical electrophysiology with a transgenic Cre-dependent optopatch mouse.* Journal of Neuroscience. 2016. [paper](https://www.jneurosci.org/content/36/43/11059?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_0)\
 <sub>The team developed a transgenic mouse for optical electrophysiology studies in genetically-defined subsets of cells. I built a computational pipeline for analyzing the data.</sub>
 
