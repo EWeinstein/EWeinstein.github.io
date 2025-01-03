@@ -53,7 +53,7 @@ Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *A
 
 **Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
 <sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
-generative model by as much as a trillion-fold. This work implements variational synthesis (above) in the laboratory. 
+generative model by as much as a trillion-fold. This work implements variational synthesis (below) in the laboratory. 
 At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
 the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
@@ -62,18 +62,18 @@ the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
 ### Nonparametric methods for sequence data
 
+Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
+<sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
+We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.</sub>
+
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological sequence kernels with guaranteed flexibility.* 2023. In submission. [paper](https://arxiv.org/abs/2304.03775). \
 <sub>We analyze the flexibility of kernels for biological sequences. 
-We find problems with many popular kernels, and propose fixes.
+We find problems with many popular kernels, and propose fixes, enabling consistent nonparametric regression and two-sample tests.
 Alan won a best student paper award at the New England Statistics Symposium 2023 for this work.</sub>
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A kernelized Stein discrepancy for biological sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
 <sub>We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.</sub>
-
-Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
-<sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
-We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.</sub>
 
 ### Additional work
 
