@@ -11,7 +11,7 @@ I'm a postdoctoral research scientist with [David Blei](http://www.cs.columbia.e
 Broadly, I work in probabilistic machine learning and its application to the molecular sciences.
 
 I focus on developing methods to design effective laboratory experiments (experimental design) 
-and to learn from natural experiments (causal inference). I am especially interested in developing machine learning algorithms that exploit 
+and to learn from natural experiments (causal inference). I am especially interested in developing algorithms that exploit 
 unique properties of molecular systems, such as molecular sources of randomness, to learn about the natural world.
 If you would like to read more, I recommend my papers on 
 [hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application [immune receptor proteins](https://arxiv.org/abs/2410.14127), 
@@ -20,7 +20,7 @@ to [synthesize DNA from generative models](https://www.biorxiv.org/content/10.11
 
 
 I focus on methodological foundations, but I am motivated by applications in therapeutics and drug discovery. 
-I am part-time Director of Machine Learning Research at [Jura Bio](https://www.jura.bio), a genomic medicines startup, where my methods have been translated to
+I am part-time Director of Machine Learning Research at [Jura Bio](https://www.jura.bio), a genomic medicines startup, where my methods have been translated into
 therapeutic discovery.
 
 
