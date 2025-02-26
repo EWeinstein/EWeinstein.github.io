@@ -10,10 +10,10 @@ layout: page
 I'm a postdoctoral research scientist with [David Blei](http://www.cs.columbia.edu/~blei/) at Columbia University.
 Broadly, I work in probabilistic machine learning and its application to the molecular sciences.
 
-My research focuses on developing probabilistic machine learning methods to design effective laboratory experiments (experimental design) 
-and to learn from natural experiments (causal inference). I am especially interested in developing machine learning algorithms that exploit the 
+I focus on developing methods to design effective laboratory experiments (experimental design) 
+and to learn from natural experiments (causal inference). I am especially interested in developing machine learning algorithms that can exploit the 
 unique properties of molecular systems to learn about the natural world, such as methods that take advantage of 
-molecular sources of randomness.
+molecular randomness.
 If you would like to read more, I recommend my papers on 
 [hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application [immune receptor proteins](https://arxiv.org/abs/2410.14127), 
 or on [steering stochastic reactions](https://proceedings.mlr.press/v151/weinstein22a) 
