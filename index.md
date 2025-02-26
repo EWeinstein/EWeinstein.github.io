@@ -14,7 +14,7 @@ I focus on developing machine learning methods to design laboratory experiments 
 and to learn from natural experiments (causal inference). I am especially interested in developing algorithms that exploit 
 unique properties of molecular systems, such as molecular sources of randomness, to learn about the natural world.
 If you would like to read more, I recommend my papers on 
-[hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application [immune receptor proteins](https://arxiv.org/abs/2410.14127), 
+[hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application to [immune receptor proteins](https://arxiv.org/abs/2410.14127), 
 or on [steering stochastic reactions](https://proceedings.mlr.press/v151/weinstein22a) 
 to [synthesize DNA from generative models](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
 
