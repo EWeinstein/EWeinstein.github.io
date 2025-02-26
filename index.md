@@ -21,7 +21,7 @@ to [synthesize DNA from generative models](https://www.biorxiv.org/content/10.11
 
 I focus on methodological foundations, but I am motivated by applications in therapeutics and drug discovery. 
 I am part-time Director of Machine Learning Research at [Jura Bio](https://www.jura.bio), a genomic medicines startup, where my methods have been translated into
-therapeutic discovery.
+therapeutic discovery and development.
 
 
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
