@@ -16,7 +16,7 @@ unique properties of molecular systems, such as molecular sources of randomness,
 If you would like to read more, I recommend my papers on 
 [hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application to [immune receptor proteins](https://arxiv.org/abs/2410.14127), 
 or on [steering stochastic reactions](https://proceedings.mlr.press/v151/weinstein22a) 
-to [synthesize DNA from generative models](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
+to [synthesize DNA from generative models at large scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
 
 
 I focus on methodological foundations, but I am motivated by applications in therapeutics and drug discovery. 
