@@ -54,7 +54,7 @@ the Molecular Machine Learning Conference (MoML) 2024.</sub>
 **Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
 <sub>We develop an experimental design method to efficiently manufacture samples from generative models in the real world.</sub>
 
-### Misspecified models
+### Model Misspecification
 
 **Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
 <sub>We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.
@@ -68,7 +68,7 @@ This paper won an oral presentation at NeurIPS.</sub>
 Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* 2024. In submission. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
 <sub>We develop a technique to robustify Bayesian models, guarding against model misspecification while preserving data efficiency.<sub>
 
-### Nonparametric methods for sequence data
+### Nonparametric Methods
 
 Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
 <sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
