@@ -51,7 +51,7 @@ generative model by as much as a trillion-fold. This work implements variational
 At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
 the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
-**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Daniel Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
+**Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Adeline Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
 <sub>We develop an experimental design method to efficiently manufacture samples from generative models in the real world.</sub>
 
 ### Model Misspecification
