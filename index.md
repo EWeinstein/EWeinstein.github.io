@@ -8,7 +8,7 @@ layout: page
 
 
 I'm a postdoctoral research scientist with [David Blei](http://www.cs.columbia.edu/~blei/) at Columbia University.
-I work on fundamental methodology in probabilistic machine learning and on applications to the molecular sciences.
+I work on fundamental methodology in probabilistic machine learning and its application to the molecular sciences.
 
 I focus on developing machine learning methods to design laboratory experiments (experimental design) 
 and to learn from natural experiments (causal inference). I am especially interested in developing algorithms that exploit 
