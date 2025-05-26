@@ -27,8 +27,6 @@ therapeutic discovery and development.
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
 
-**I am on the 2024-2025 academic job market.**
-
 Email: ew2760 [at] columbia.edu
 
 ## Publications and preprints
