@@ -8,15 +8,14 @@ layout: page
 
 
 I'm a postdoctoral research scientist with [David Blei](http://www.cs.columbia.edu/~blei/) at Columbia University.
-I work on fundamental methodology in probabilistic machine learning and its application to the molecular sciences.
+I work on fundamental methodology in probabilistic machine learning and its application to molecules.
 
 I focus on developing machine learning methods to design laboratory experiments (experimental design) 
-and to learn from natural experiments (causal inference). I am especially interested in developing algorithms that exploit 
+and to learn from natural experiments (causal inference). I am principally interested in developing algorithms that exploit 
 unique properties of molecular systems, such as molecular sources of randomness, to learn about the natural world.
-If you would like to read more, I recommend my papers on 
-[hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application to [immune receptor proteins](https://arxiv.org/abs/2410.14127), 
-or on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
-to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2).
+If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
+to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2), or on 
+[hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application to [human immune receptors](https://arxiv.org/abs/2410.14127).
 
 
 My fundamental research is often motivated by applied problems in therapeutics and drug discovery. 
@@ -26,6 +25,9 @@ therapeutic discovery and development.
 
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
+
+**I am joining the Technical University of Denmark (DTU) as an assistant professor of chemistry in September 2025.** 
+Please feel free to reach out if you are interested in working with me as a PhD student or postdoc, or otherwise collaborating.
 
 Email: ew2760 [at] columbia.edu
 
