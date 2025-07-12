@@ -11,7 +11,7 @@ I am incoming assistant professor of chemistry at the Technical University of De
 I work on fundamental methodology in probabilistic machine learning and its application to molecules.
 My research focuses on developing machine learning methods to design laboratory experiments (experimental design) 
 and to learn from natural experiments and observation (causal inference). I am principally interested in developing algorithms that exploit 
-unique features of molecular systems, such as molecular sources of randomness, or billions of years of evolutionary history.
+unique features of molecular systems, such as molecular sources of randomness, to learn about the natural world.
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
 to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2), or on 
