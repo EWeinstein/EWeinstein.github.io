@@ -6,7 +6,9 @@ layout: page
 
 <img src="/images/Eli_Weinstein_v2.png" alt="drawing" width="150" align="left" hspace="10">
 
-I am incoming assistant professor of chemistry at the Technical University of Denmark (DTU).
+I am an incoming assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also affiliated with the Pioneer Centre for AI.
+
+**I am currently seeking a PhD student. See the ad [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs/preview/5573) and please feel free to reach out directly with any questions.**
 
 I work on fundamental methodology in probabilistic machine learning and its application to molecules.
 My research focuses on developing machine learning methods to design laboratory experiments (experimental design) 
