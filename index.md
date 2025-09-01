@@ -6,12 +6,12 @@ layout: page
 
 <img src="/images/Eli_Weinstein_v2.png" alt="drawing" width="150" align="left" hspace="10">
 
-I am an incoming assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also affiliated with the Pioneer Centre for AI.
+I am a new assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also a member of the ELLIS Unit Copenhagen.
 
-**I am currently seeking a PhD student. See the ad [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs/preview/5573) and please feel free to reach out directly with any questions.**
+**I am currently seeking a PhD student. See the post [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs/preview/5573) and please feel free to reach out directly with any questions.**
 
 I work on fundamental methodology in probabilistic machine learning and its application to molecules.
-My research focuses on developing machine learning methods to design laboratory experiments (experimental design) 
+My research focuses on developing machine learning methods to control laboratory experiments (experimental design) 
 and to learn from natural experiments and observation (causal inference). I am principally interested in developing algorithms that exploit 
 unique features of molecular systems, such as molecular sources of randomness, to learn about the natural world.
 
@@ -29,7 +29,7 @@ I received my A.B. in Chemistry and Physics with highest honors from Harvard in 
 
 **Please reach out if you are interested in working with me as a PhD student or postdoc, or otherwise collaborating.**
 
-Email: eli.n.weinstein [at] gmail.com
+Email: enawe [at] dtu.dk
 
 ## Publications and preprints
 \*Equal contribution (first or last author)
