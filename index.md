@@ -29,6 +29,8 @@ I received my A.B. in Chemistry and Physics with highest honors from Harvard in 
 
 **Please reach out if you are interested in working with me as a PhD student or postdoc, or otherwise collaborating.**
 
+If you are interested in attending the ML & Molecules Reading Group at DTU, please click here [Research]({{ site.baseurl }}/mlmol).
+
 Email: enawe [at] dtu.dk
 
 ## Publications and preprints
