@@ -3,7 +3,9 @@ layout: page
 title: ML and Molecules Reading Group
 ---
 
-<img src="/images/MLMol_Fall_2025.png" alt="drawing" width="500" align="center" hspace="10">
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/MLMol_Fall_2025.png" alt="ML & Molecules Reading Group" style="max-width: 100%; height: auto; width: 500px;">
+</div>
 
 Machine learning and AI have transformed scientific data analysis. But the experiments that generate data are usually taken as given. Algorithmic guidance and control of scientific experiments could lead to much more efficient and scalable learning, enabling the next generation of scientific AI.
 
