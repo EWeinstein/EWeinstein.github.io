@@ -11,7 +11,9 @@ Machine learning and AI have transformed scientific data analysis. But the exper
 
 This semester, we will study the fundamental theory of experimental design. We'll read foundational statistical ideas about how to quantify the amount of information an experiment provides. We'll study emerging ML methods and algorithms for optimizing experimental designs. And we'll look at how these ideas are beginning to be applied in science, with a focus on protein design and engineering. Overall, our aim is to provide a background for researchers interested in advancing the frontier of ML-guided experimentation. 
 
-**Time and place to be announced shortly.**
+**Thursdays 1-2:30pm, Room 207-222. First meeting: September 25. **
+
+**Please sign up here for the mailing list (scheduling announcements, etc.): [form](https://docs.google.com/forms/d/e/1FAIpQLSd8FExycwL2YYhU1ZjuRdjUoFsjAS0ELkdbVQPt7L9CZOxfmg/viewform?usp=header**)**
 
 Reading list (subject to change).
 
@@ -54,6 +56,6 @@ https://openreview.net/pdf?id=MMMHufVc2v
 Adcock et al. 2023. CS4ML: A general framework for active learning with arbitrary data based on Christoffel functions. https://arxiv.org/pdf/2306.00945
 
 
-About ML & Molecules reading group: ML & Molecules is a new reading group organized by Asst. Prof. Eli Weinstein (DTU Chemistry) and Assoc. Prof. Jes Frellsen (DTU Compute). It focuses on fundamental probabilistic machine learning and its intersection with the molecular sciences. Everyone in the group presents a paper, in a rotating schedule. It is open to students, postdocs, faculty and staff. It is not a formal course, but can optionally be taken as a project course, for which you will receive course credit. Please get in touch with the organizers if you are interested.
+About ML & Molecules reading group: ML & Molecules is a new reading group organized by Asst. Prof. Eli Weinstein (DTU Chemistry) and Assoc. Prof. Jes Frellsen (DTU Compute). It focuses on fundamental probabilistic machine learning and its intersection with the molecular sciences. Everyone in the group presents a paper, in a rotating schedule. It is open to students, postdocs, faculty and staff. It is not a formal course, but can optionally be taken as a project course, for which you will receive course credit. 
 
 Contact: enawe [at] dtu.dk
