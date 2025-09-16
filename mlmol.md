@@ -13,7 +13,7 @@ This semester, we will study the fundamental theory of experimental design. We'l
 
 **Thursdays 1-2:30pm, Room 207-222 (DTU Chemistry). First meeting: September 25.**
 
-**Please sign up here for the mailing list (scheduling announcements, etc.): [form](https://docs.google.com/forms/d/e/1FAIpQLSd8FExycwL2YYhU1ZjuRdjUoFsjAS0ELkdbVQPt7L9CZOxfmg/viewform?usp=header**)**
+**Please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd8FExycwL2YYhU1ZjuRdjUoFsjAS0ELkdbVQPt7L9CZOxfmg/viewform?usp=header**) for the mailing list (scheduling announcements, etc.)**
 
 Reading list (subject to change).
 
