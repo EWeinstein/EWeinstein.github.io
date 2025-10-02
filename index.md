@@ -8,8 +8,6 @@ layout: page
 
 I am a new assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also a member of the ELLIS Unit Copenhagen.
 
-**I am currently seeking a PhD student. See the post [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/jobs/preview/5573) and please feel free to reach out directly with any questions.**
-
 I work on fundamental methodology in probabilistic machine learning and its application to molecules.
 My research focuses on developing machine learning methods to control laboratory experiments (experimental design) 
 and to learn from natural experiments and observation (causal inference). I am principally interested in developing algorithms that exploit 
