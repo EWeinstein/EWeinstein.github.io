@@ -75,7 +75,7 @@ Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparame
 We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.</sub>
 
 
-Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *Biological sequence kernels with guaranteed flexibility.* 2023. In submission. [paper](https://arxiv.org/abs/2304.03775). \
+Alan N. Amin, Debora S. Marks\*, **Eli N. Weinstein\***. *Biological sequence kernels with guaranteed flexibility.* 2023. Forthcoming in the Journal of Machine Learning Research. [paper](https://arxiv.org/abs/2304.03775). \
 <sub>We analyze the flexibility of kernels for biological sequences. 
 We find problems with many popular kernels, and propose fixes, enabling consistent nonparametric regression and two-sample tests.
 Alan won a best student paper award at the New England Statistics Symposium 2023 for this work.</sub>
