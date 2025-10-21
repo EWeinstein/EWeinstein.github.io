@@ -34,18 +34,10 @@ Email: enawe [at] dtu.dk
 ## Publications and preprints
 \*Equal contribution (first or last author)
 
-### Causal Inference
-
-**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. In submission. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
-<sub>We develop methods to draw causal inferences from nested data.</sub>
-
-**Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the causal effects of T cell receptors*. 2024. In submission. 
-[paper](https://arxiv.org/abs/2410.14127).\
-<sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work uses hierarchical causal models (above).<sub>
 
 ### Experimental Design
 
-**Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. In submission. [paper](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).
+**Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. In submission. [paper](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
 <sub> We develop a method to scale up learning of protein function. It is based on the co-design of experiments and inference algorithms, taking advantage of variational synthesis (below).<sub>
 
 **Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. In submission. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
@@ -56,6 +48,15 @@ the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
 **Eli N. Weinstein**, Alan N. Amin, Will Grathwohl, Adeline Kassler, Jean Disset, Debora S. Marks. *Optimal design of stochastic DNA synthesis protocols based on generative sequence models.* Artificial Intelligence and Statistics (AISTATS). 2022. [paper](https://proceedings.mlr.press/v151/weinstein22a). [code](https://github.com/debbiemarkslab/variational-synthesis). [talk](https://www.youtube.com/watch?v=_h0S9pmcwgI&ab_channel=MLforproteinengineeringseminarseries).\
 <sub>We develop an experimental design method to efficiently manufacture samples from generative models in the real world.</sub>
+
+### Causal Inference
+
+**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. In submission. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
+<sub>We develop methods to draw causal inferences from nested data.</sub>
+
+**Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the causal effects of T cell receptors*. 2024. In submission. 
+[paper](https://arxiv.org/abs/2410.14127).\
+<sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work uses hierarchical causal models (above).<sub>
 
 ### Model Misspecification
 
