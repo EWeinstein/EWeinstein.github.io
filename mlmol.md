@@ -49,8 +49,12 @@ Liu et al. 2024. Scalable, compressed phenotypic screening using pooled perturba
 https://www.nature.com/articles/s41587-024-02403-z
 
 9. Stochastic variational design for compressed experiments.
-Grover and Ermon. Uncertainty Autoencoders: Learning Compressed Representations via Variational Information Maximization
+Grover and Ermon. Uncertainty Autoencoders: Learning Compressed Representations via Variational Information Maximization.
 https://proceedings.mlr.press/v89/grover19a.html
+
+10. Optimal nonparametric design and theory.
+Huszar and Duvenaud. 2012. Optimally-Weighted Herding is Bayesian Quadrature.
+https://www.auai.org/uai2012/papers/213.pdf
 
 About ML & Molecules reading group: ML & Molecules is a new reading group organized by Asst. Prof. Eli Weinstein (DTU Chemistry) and Assoc. Prof. Jes Frellsen (DTU Compute). It focuses on fundamental probabilistic machine learning and its intersection with the molecular sciences. Everyone in the group presents a paper, in a rotating schedule. It is open to students, postdocs, faculty and staff. It is not a formal course, but can optionally be taken as a project course, for which you will receive course credit. 
 
