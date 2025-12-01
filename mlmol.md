@@ -15,46 +15,42 @@ This semester, we will study the fundamental theory of experimental design. We'l
 
 **Please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd8FExycwL2YYhU1ZjuRdjUoFsjAS0ELkdbVQPt7L9CZOxfmg/viewform?usp=header**) for the mailing list (scheduling announcements, etc.)**
 
-Reading list (subject to change).
+Reading list:
 
-Part 1: Introduction and Overview
-1. A recent review. Rainforth et al. 2024. Modern Bayesian Experimental Design
+1. Introduction and overview. 
+Rainforth et al. 2024. Modern Bayesian Experimental Design
 https://projecteuclid.org/journals/statistical-science/volume-39/issue-1/Modern-Bayesian-Experimental-Design/10.1214/23-STS915.short
 
 2. Lindley's foundational paper. 
 D.V. Lindley. 1956. On a Measure of the Information Provided by an Experiment. https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-27/issue-4/On-a-Measure-of-the-Information-Provided-by-an-Experiment/10.1214/aoms/1177728069.full
-Recommended additional reading: Chaloner & Verdinelli https://projecteuclid.org/journals/statistical-science/volume-10/issue-3/Bayesian-Experimental-Design-A-Review/10.1214/ss/1177009939.full
 
-Part 2: ML Methods
-3. Stochastic gradient based design.
-Foster et al. 2020. A Unified Stochastic Gradient Approach to Designing Bayesian-Optimal Experiments. https://arxiv.org/abs/1911.00294
-
-4. Improved numerics and estimators.
-Goda et al. 2021. Unbiased MLMC stochastic gradient-based optimization of Bayesian experimental designs. https://arxiv.org/abs/2005.08414
-
-5. Incorporating generative models
-Iolla et al. 2025. Bayesian Experimental Design via Contrastive Diffusions. https://arxiv.org/abs/2410.11826
-
-6. Kernel methods and statistical discrepancies.
-Huszár & Duvenaud. 2012. Optimally-weighted herding is Bayesian quadrature. https://arxiv.org/abs/1204.1664
-
-Part 3: Emerging Applications
-7. Foundational work on ML-guided protein design.
+3. Experimental design for protein design.
 Romero et al. 2012. Navigating the protein fitness landscape with Gaussian processes.
 https://www.pnas.org/doi/10.1073/pnas.1215251110
 
-8. Recent large scale systems for protein therapeutics design.
+4. Advances in experimental design for proteins.
 Frey et al. 2025. Lab-in-the-loop therapeutic antibody design with deep learning.
 https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2
 
-Part 4: Theory
-9. G-designs and their generalizations
-Agarwal et al. 2024. The Non-linear F-Design and Applications to Interactive Learning
-https://openreview.net/pdf?id=MMMHufVc2v
+5. Optimizing designs with stochastic gradients.
+Foster et al. 2020. A Unified Stochastic Gradient Approach to Designing Bayesian-Optimal Experiments. 
+https://proceedings.mlr.press/v108/foster20a.html
 
-10. Christoffel functions and their applications
-Adcock et al. 2023. CS4ML: A general framework for active learning with arbitrary data based on Christoffel functions. https://arxiv.org/pdf/2306.00945
+6. Building training datasets with large scale screens.
+Krishnan et al. 2025. A generative deep learning approach to de novo antibiotic design. 
+https://www.cell.com/cell/abstract/S0092-8674(25)00855-4
 
+7. Optimal information gathering for prediction.
+Smith et al. 2023. Prediction Oriented Bayesian Active Learning.
+https://proceedings.mlr.press/v206/bickfordsmith23a/bickfordsmith23a.pdf
+
+8. Compressed screening
+Liu et al. 2024. Scalable, compressed phenotypic screening using pooled perturbations.
+https://www.nature.com/articles/s41587-024-02403-z
+
+9. Stochastic variational design for compressed experiments.
+Grover and Ermon. Uncertainty Autoencoders: Learning Compressed Representations via Variational Information Maximization
+https://proceedings.mlr.press/v89/grover19a.html
 
 About ML & Molecules reading group: ML & Molecules is a new reading group organized by Asst. Prof. Eli Weinstein (DTU Chemistry) and Assoc. Prof. Jes Frellsen (DTU Compute). It focuses on fundamental probabilistic machine learning and its intersection with the molecular sciences. Everyone in the group presents a paper, in a rotating schedule. It is open to students, postdocs, faculty and staff. It is not a formal course, but can optionally be taken as a project course, for which you will receive course credit. 
 
