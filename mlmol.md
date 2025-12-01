@@ -17,11 +17,11 @@ This semester, we will study the fundamental theory of experimental design. We'l
 
 Reading list:
 
-1. Introduction and overview.\ 
+1. Introduction and overview.\
 Rainforth et al. 2024. Modern Bayesian Experimental Design
 https://projecteuclid.org/journals/statistical-science/volume-39/issue-1/Modern-Bayesian-Experimental-Design/10.1214/23-STS915.short
 
-2. Lindley's foundational paper.\ 
+2. Lindley's foundational paper.\
 D.V. Lindley. 1956. On a Measure of the Information Provided by an Experiment. https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-27/issue-4/On-a-Measure-of-the-Information-Provided-by-an-Experiment/10.1214/aoms/1177728069.full
 
 3. Experimental design for protein design.\
