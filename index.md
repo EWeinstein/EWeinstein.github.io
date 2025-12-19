@@ -6,15 +6,15 @@ layout: page
 
 <img src="/images/Eli_Weinstein_v2.png" alt="drawing" width="150" align="left" hspace="10">
 
-I am a new assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also a member of ELLIS and the Pioneer Centre for AI.
+I am an assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also a member of ELLIS and the Pioneer Centre for AI.
 
-I work on fundamental methodology in probabilistic machine learning and its application to molecules.
+I work on fundamental methodology in probabilistic machine learning and its application to molecules. 
 My research focuses on developing machine learning methods to control laboratory experiments (experimental design) 
 and to learn from natural experiments and observation (causal inference). I am principally interested in developing algorithms that exploit 
 unique features of molecular systems, such as molecular sources of randomness, to learn about the natural world.
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
-to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v2), or on 
+to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3), or on 
 [hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application to [human immune receptor repertoires](https://arxiv.org/abs/2410.14127).
 
 My fundamental research is often motivated by applied problems in therapeutics and drug discovery. 
@@ -25,17 +25,23 @@ Previously, I was a postdoctoral research scientist with [David Blei](http://www
 I received my PhD in Biophysics from Harvard University in 2022, advised by [Debora Marks](https://marks.hms.harvard.edu/index.html) and [Jeff Miller](https://jwmi.github.io/), as a [Hertz Foundation Fellow](https://www.hertzfoundation.org/). 
 I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016, working with [Adam Cohen](http://cohenweb.rc.fas.harvard.edu/).
 
-**Please reach out if you are interested in working with me as a PhD student or postdoc, or otherwise collaborating.**
-
-**If you are interested in attending the new ML & Molecules Reading Group at DTU this fall, please click [here]({{ site.baseurl }}/mlmol).**
+Please reach out if you are interested in working with me or collaborating.
 
 Email: enawe [at] dtu.dk
+
+**If you are interested in attending the ML & Molecules Reading Group at DTU, please click [here]({{ site.baseurl }}/mlmol).**
 
 ## Publications and preprints
 \*Equal contribution (first or last author)
 
 
 ### Experimental Design
+
+**Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Kerry Dobbs\*, Xiao-Bing Cui\*, Fang Zhang, Kristina Gurung, Elizabeth B. Wood.
+*Lifting Biomolecular Data Acquisition.*
+2025. Preprint. [paper](https://arxiv.org/abs/2512.15984v1). [blog](https://www.jura.bio/blog/leavs).\
+<sub> We develop a method to pack and extract more information from high throughput experiments. It is based on an extension of compressed sensing, from learning vectors to learning functions parameterized by neural networks. <sub>
+
 
 **Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. In submission. [paper](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
 <sub> We develop a method to scale up learning of protein function. It is based on the co-design of experiments and inference algorithms, taking advantage of variational synthesis (below).<sub>
@@ -51,7 +57,7 @@ the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
 ### Causal Inference
 
-**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. In submission. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
+**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. Revise & resubmit at JMLR. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
 <sub>We develop methods to draw causal inferences from nested data.</sub>
 
 **Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the causal effects of T cell receptors*. 2024. In submission. 
@@ -69,7 +75,7 @@ A workshop version was selected for a contributed talk at the Your Model is Wron
 <sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.
 This paper won an oral presentation at NeurIPS.</sub>
 
-Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* 2024. In submission. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
+Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* 2024. Revise & resubmit at JMLR. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
 <sub>We develop a technique to robustify Bayesian models, guarding against model misspecification while preserving data efficiency.<sub>
 
 ### Nonparametric Methods
@@ -88,6 +94,10 @@ Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A kernelized Stein dis
 <sub>We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.</sub>
 
 ### Additional work
+
+Bohan Wu, Eli N. Weinstein, David M. Blei. *Bayesian Empirical Bayes: Simultaneous Inference from Probabilistic Symmetries.* In submission. 2025.
+[paper](https://arxiv.org/pdf/2512.16239)\
+<sub>We developed methods to reconstruct latent variables from complex structured data. The methods leverage group theory to learn from a single graph, array, spatiotemporal process, molecule, etc.<sub>
 
 Erik Nijkamp, Jeffrey Ruffolo, **Eli N. Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: exploring the boundaries of protein language models.* Cell Systems. 2023. 
 [paper](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7)\
