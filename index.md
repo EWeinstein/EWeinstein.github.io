@@ -39,7 +39,7 @@ Email: enawe [at] dtu.dk
 
 **Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Kerry Dobbs\*, Xiao-Bing Cui\*, Fang Zhang, Kristina Gurung, Elizabeth B. Wood.
 *Lifting Biomolecular Data Acquisition.* 2025. Preprint. [paper](https://arxiv.org/abs/2512.15984v1). [blog](https://www.jura.bio/blog/leavs).\
-<sub> We develop a method to pack and extract more information from high throughput experiments. It is based on an extension of compressed sensing, from learning vectors to learning functions parameterized by neural networks. <sub>
+<sub> We develop a method to pack and extract more information from high throughput experiments, using variational synthesis (below). It is based on an extension of compressed sensing, from learning vectors to learning functions parameterized by neural networks. <sub>
 
 
 **Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. In submission. [paper](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
