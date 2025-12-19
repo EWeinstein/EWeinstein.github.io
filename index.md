@@ -96,7 +96,7 @@ Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A kernelized Stein dis
 
 Bohan Wu, Eli N. Weinstein, David M. Blei. *Bayesian Empirical Bayes: Simultaneous Inference from Probabilistic Symmetries.* In submission. 2025.
 [paper](https://arxiv.org/pdf/2512.16239)\
-<sub>We developed methods to reconstruct latent variables from complex structured data. The methods leverage group theory to learn from a single graph, array, spatiotemporal process, molecule, etc.<sub>
+<sub>We develop methods to reconstruct latent variables from complex structured data. The methods leverage group theory to learn from a single graph, array, spatiotemporal process, molecule, etc.<sub>
 
 Erik Nijkamp, Jeffrey Ruffolo, **Eli N. Weinstein**, Nikhil Naik, Ali Madani. *ProGen2: exploring the boundaries of protein language models.* Cell Systems. 2023. 
 [paper](https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7)\
