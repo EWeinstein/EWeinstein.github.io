@@ -11,7 +11,7 @@ I am an assistant professor of chemistry at the Technical University of Denmark 
 I work on fundamental methodology in machine learning for molecules. 
 I focus especially on developing probabilistic methods to steer laboratory experiments (experimental design) 
 and to learn from natural experiments and observation (causal inference). I am motivated by
-foundational questions of how to learn about the molecular world, including (a) how to efficiently learn molecule-activity relationships, and (b) how to estimate molecules' effects on complex biological systems.
+foundational questions of how to learn about the molecular world, including how to efficiently learn molecule-activity relationships, and how to estimate molecules' effects on complex biological systems.
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
 to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3), or on 
