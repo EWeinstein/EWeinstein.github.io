@@ -63,20 +63,6 @@ the Molecular Machine Learning Conference (MoML) 2024.</sub>
 [paper](https://arxiv.org/abs/2410.14127).\
 <sub>We estimate the effect of T cells with a specific TCR on patient outcomes. This work uses hierarchical causal models (above).<sub>
 
-### Model Misspecification
-
-**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
-<sub>We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.
-This work received a best student paper award at the New England Statistics Symposium, 2021. 
-A workshop version was selected for a contributed talk at the Your Model is Wrong workshop, NeurIPS 2021.</sub>
-
-**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks. *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Advances in Neural Information Processing Systems (NeurIPS). 2022. [paper](https://openreview.net/pdf?id=CwG-o0ind6t). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).\
-<sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.
-This paper won an oral presentation at NeurIPS.</sub>
-
-Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* 2024. Revise & resubmit at JMLR. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
-<sub>We develop a technique to robustify Bayesian models, guarding against model misspecification while preserving data efficiency.<sub>
-
 ### Nonparametric Methods
 
 Alan N. Amin, Debora S. Marks\*, **Eli N. Weinstein\***. *Biological sequence kernels with guaranteed flexibility.* 2025. Journal of Machine Learning Research. [paper](https://jmlr.org/papers/v26/23-0455.html). \
@@ -90,6 +76,20 @@ Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A kernelized Stein dis
 Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
 <sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
 We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.</sub>
+
+### Model Misspecification
+
+Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* 2024. Revise & resubmit at JMLR. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
+<sub>We develop a technique to robustify Bayesian models, guarding against model misspecification while preserving data efficiency.<sub>
+
+**Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
+<sub>We develop a technique to discover the aspects of a data set that a Bayesian model can explain, and those it cannot.
+This work received a best student paper award at the New England Statistics Symposium, 2021. 
+A workshop version was selected for a contributed talk at the Your Model is Wrong workshop, NeurIPS 2021.</sub>
+
+**Eli N. Weinstein\***, Alan N. Amin\*, Jonathan Frazer, Debora S. Marks. *Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny.* Advances in Neural Information Processing Systems (NeurIPS). 2022. [paper](https://openreview.net/pdf?id=CwG-o0ind6t). [talk](https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO).\
+<sub>We analyze the fundamental limits of what generative sequence models can learn about protein evolution, and propose biophysical and statistical reasons for their empirical success as fitness estimators.
+This paper won an oral presentation at NeurIPS.</sub>
 
 ### Additional work
 
