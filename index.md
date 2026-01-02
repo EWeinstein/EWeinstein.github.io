@@ -8,10 +8,10 @@ layout: page
 
 I am an assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also a member of ELLIS and the Pioneer Centre for AI.
 
-I work on fundamental methodology in probabilistic machine learning and its application to molecules. 
-My research focuses on developing machine learning methods to control laboratory experiments (experimental design) 
-and to learn from natural experiments and observation (causal inference). I am principally interested in developing algorithms that exploit 
-unique features of molecular systems, such as molecular sources of randomness, to learn about the natural world.
+I work on fundamental methodology in machine learning for molecules. 
+I focus especially on developing probabilistic methods to steer laboratory experiments (experimental design) 
+and to learn from natural experiments and observation (causal inference). I am motivated by
+foundational questions of how to learn about the molecular world, including (a) how to efficiently learn molecule-activity relationships, and (b) how to estimate molecules' effects on complex biological systems.
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
 to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3), or on 
@@ -79,18 +79,17 @@ Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *A
 
 ### Nonparametric Methods
 
-Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
-<sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
-We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.</sub>
-
-
-Alan N. Amin, Debora S. Marks\*, **Eli N. Weinstein\***. *Biological sequence kernels with guaranteed flexibility.* 2023. Forthcoming in the Journal of Machine Learning Research. [paper](https://arxiv.org/abs/2304.03775). \
+Alan N. Amin, Debora S. Marks\*, **Eli N. Weinstein\***. *Biological sequence kernels with guaranteed flexibility.* 2025. Journal of Machine Learning Research. [paper](https://jmlr.org/papers/v26/23-0455.html). \
 <sub>We analyze the flexibility of kernels for biological sequences. 
 We find problems with many popular kernels, and propose fixes, enabling consistent nonparametric regression and two-sample tests.
 Alan won a best student paper award at the New England Statistics Symposium 2023 for this work.</sub>
 
 Alan N. Amin, **Eli N. Weinstein\***, Debora S. Marks\*. *A kernelized Stein discrepancy for biological sequences.* International Conference on Machine Learning (ICML). 2023. [paper](https://openreview.net/forum?id=8LdBTjylEw).\
 <sub>We develop a new discrepancy for biological sequence distributions. It can be used (for instance) to measure the goodness-of-fit of a generative sequence model, or the quality of samples drawn from a generative sequence model.</sub>
+
+Alan N. Amin\*, **Eli N. Weinstein\***, Debora S. Marks. *A generative nonparametric Bayesian model for whole genomes*. Advances in Neural Information Processing Systems (NeurIPS). 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html). [code](https://github.com/debbiemarkslab/BEAR). [talk](https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s). \
+<sub>We develop a scalable nonparametric model for biological sequences, and establish its asymptotic consistency and convergence rate.
+We also apply this model to develop goodness-of-fit and two-sample tests for biological sequences.</sub>
 
 ### Additional work
 
