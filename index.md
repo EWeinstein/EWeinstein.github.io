@@ -6,16 +6,17 @@ layout: page
 
 <img src="/images/Eli_Weinstein_v2.png" alt="drawing" width="150" align="left" hspace="10">
 
-I am an assistant professor of chemistry at the Technical University of Denmark (DTU). I'm also a member of ELLIS and the Pioneer Centre for AI.
+I am an assistant professor of chemistry at the Technical University of Denmark (DTU), a member of ELLIS and a member of the Pioneer Centre for AI in Copenhagen.
 
 I work on fundamental methodology in machine learning for molecules. 
-I focus especially on developing probabilistic methods to steer laboratory experiments (experimental design) 
-and to learn from natural experiments and observation (causal inference). I am motivated by
-foundational questions around how to learn about the molecular world, including how to map molecule-activity relationships, and how to estimate molecules' effects on complex biological systems.
+I develop probabilistic methods to steer laboratory experiments (experimental design) 
+and to learn from natural experiments and observation (causal inference). 
+I aim to advance our basic understanding of how to learn about the molecular world.
+My work addresses questions such as how to efficiently map molecule-activity relationships, and how to estimate molecules' effects on complex biological systems.
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
 to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3), or on 
-[hierarchical causal modeling](https://arxiv.org/abs/2401.05330) and its application to [human immune receptor repertoires](https://arxiv.org/abs/2410.14127).
+[building hierarchical causal models](https://arxiv.org/abs/2401.05330) to estimate the effects of [immune receptor proteins in humans](https://arxiv.org/abs/2410.14127).
 
 My fundamental research is often motivated by applied problems in therapeutics and drug discovery. 
 I am part-time Director of Machine Learning Research at [Jura Bio](https://www.jura.bio), a genomic medicines startup, where my methods have been translated into
