@@ -12,7 +12,7 @@ I work on fundamental methodology in machine learning for molecules.
 I develop probabilistic methods to steer laboratory experiments (experimental design) 
 and to learn from natural experiments and observation (causal inference). 
 I aim to advance our basic understanding of how to learn about the molecular world.
-My work addresses questions such as how to efficiently map molecule-activity relationships, and how to estimate molecules' effects on complex biological systems.
+How can we efficiently learn a mapping from molecular structure to activity? How can we estimate molecules' effects on complex biological systems? How can we design molecules with desired properties?
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
 to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3), or on 
