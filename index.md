@@ -57,7 +57,7 @@ the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
 ### Causal Inference
 
-**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. Revise & resubmit at JMLR. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
+**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. Forthcoming at the Journal of Machine Learning Research. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
 <sub>We develop methods to draw causal inferences from nested data.</sub>
 
 **Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the causal effects of T cell receptors*. 2024. In submission. 
@@ -94,7 +94,7 @@ This paper won an oral presentation at NeurIPS.</sub>
 
 ### Additional work
 
-Bohan Wu, Eli N. Weinstein, David M. Blei. *Bayesian Empirical Bayes: Simultaneous Inference from Probabilistic Symmetries.* In submission. 2025.
+Bohan Wu, **Eli N. Weinstein**, David M. Blei. *Bayesian Empirical Bayes: Simultaneous Inference from Probabilistic Symmetries.* In submission. 2025.
 [paper](https://arxiv.org/pdf/2512.16239)\
 <sub>We develop methods to reconstruct latent variables from complex structured data. The methods leverage group theory to learn from a single graph, array, spatiotemporal process, molecule, etc.<sub>
 
