@@ -43,10 +43,10 @@ Email: enawe [at] dtu.dk
 <sub> We develop a method to pack and extract more information from high throughput experiments, using variational synthesis (below). It is based on an extension of compressed sensing, from learning vectors to learning functions parameterized by neural networks. <sub>
 
 
-**Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. In submission. [paper](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
-<sub> We develop a method to scale up learning of protein function. It is based on the co-design of experiments and inference algorithms, taking advantage of variational synthesis (below).<sub>
+**Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. Forthcoming at AISTATS. [preprint](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
+<sub> We develop a method to scale up models of protein function via co-design of data collection and inference algorithms. It takes advantage of variational synthesis to accelerate learning (below).<sub>
 
-**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. Accepted at Nature Biotechnology. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
+**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. Forthcoming at Nature Biotechnology. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
 <sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
 generative model by as much as a trillion-fold. This work implements variational synthesis (below) in the laboratory. 
 At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
