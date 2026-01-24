@@ -49,10 +49,14 @@ Liu et al. 2024. Scalable, compressed phenotypic screening using pooled perturba
 https://www.nature.com/articles/s41587-024-02403-z
 
 9. Stochastic variational design for compressed experiments.\
-Grover and Ermon. Uncertainty Autoencoders: Learning Compressed Representations via Variational Information Maximization.
+Grover and Ermon. 2019. Uncertainty Autoencoders: Learning Compressed Representations via Variational Information Maximization.
 https://proceedings.mlr.press/v89/grover19a.html
 
-10. Optimal nonparametric design and theory.\
+10. Information for optimization.\
+Russo and van Roy. 2014. Learning to Optimize via Information-Directed Sampling.
+https://papers.nips.cc/paper_files/paper/2014/hash/90720a2fcc41f9332e6a1558da327089-Abstract.html
+
+11. Optimal nonparametric design and theory.\
 Huszar and Duvenaud. 2012. Optimally-Weighted Herding is Bayesian Quadrature.
 https://www.auai.org/uai2012/papers/213.pdf
 
