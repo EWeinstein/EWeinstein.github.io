@@ -17,8 +17,7 @@ This semester we will investigate the interface between machine learning and sim
 Reading list:
 
 1. Feb. 25: Sampling from energy-based models.\
-Noé et al. 2019. Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning.\
-<https://www.science.org/doi/10.1126/science.aaw1147>
+Noé et al. 2019. Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning. <https://www.science.org/doi/10.1126/science.aaw1147>
 
 Tentative future papers/topics include
 
