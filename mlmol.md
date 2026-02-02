@@ -3,7 +3,7 @@ layout: page
 title: ML and Molecules Reading Group, Spring 2026
 ---
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/images/MLMol_Spring_2026" alt="ML & Molecules Reading Group" style="max-width: 100%; height: auto; width: 500px;">
+  <img src="/images/MLMol_Spring_2026.jpg" alt="ML & Molecules Reading Group" style="max-width: 100%; height: auto; width: 500px;">
 </div>
 
 Large scale computing has transformed scientific discovery both through physical simulation and through machine learning. Yet these two forms of scientific computing sit in uneasy relationship, operating with distinct logic and methodology.
@@ -16,19 +16,19 @@ This semester we will investigate the interface between machine learning and sim
 
 Reading list:
 
-1. Feb. 25: Sampling from energy-based models.
+1. Feb. 25: Sampling from energy-based models.\
 Noé et al. 2019. Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning.
-https://www.science.org/doi/10.1126/science.aaw1147
+<https://www.science.org/doi/10.1126/science.aaw1147>
 
 Tentative future papers/topics include
 
-Learning in implicit generative models, Mohamed and Lakshminarayanan. https://arxiv.org/abs/1610.03483
+Learning in implicit generative models, Mohamed and Lakshminarayanan. [https://arxiv.org/abs/1610.03483](https://arxiv.org/abs/1610.03483)
 
-Do Differentiable Simulators Give Better Policy Gradients? Suh et al. 2022 https://proceedings.mlr.press/v162/suh22b.html 
+Do Differentiable Simulators Give Better Policy Gradients? Suh et al. 2022. [https://proceedings.mlr.press/v162/suh22b.html](https://proceedings.mlr.press/v162/suh22b.html) 
 
 Ab initio solution of the many-electron Schrödinger equation with deep neural networks. Pfau et al. 2020
 
-Fourier Neural Operators Li et al. 2021 https://arxiv.org/pdf/2010.08895
+Fourier Neural Operators Li et al. 2021. [https://arxiv.org/pdf/2010.08895](https://arxiv.org/pdf/2010.08895)
 
 
 

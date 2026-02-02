@@ -30,7 +30,7 @@ https://www.pnas.org/doi/10.1073/pnas.1215251110
 
 4. Advances in experimental design for proteins.\
 Frey et al. 2025. Lab-in-the-loop therapeutic antibody design with deep learning.
-https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2
+<https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2>
 
 5. Optimizing designs with stochastic gradients.\
 Foster et al. 2020. A Unified Stochastic Gradient Approach to Designing Bayesian-Optimal Experiments. 
