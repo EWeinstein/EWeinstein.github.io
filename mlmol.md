@@ -3,7 +3,7 @@ layout: page
 title: ML and Molecules Reading Group, Spring 2026
 ---
 <div style="text-align: center; margin: 20px 0;">
-  <img src="/images/MLMol_Spring_2026.jpg" alt="ML & Molecules Reading Group" style="max-width: 100%; height: auto; width: 500px;">
+  <img src="/images/MLMol_Spring_2026" alt="ML & Molecules Reading Group" style="max-width: 100%; height: auto; width: 500px;">
 </div>
 
 Large scale computing has transformed scientific discovery both through physical simulation and through machine learning. Yet these two forms of scientific computing sit in uneasy relationship, operating with distinct logic and methodology.
