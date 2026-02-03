@@ -10,13 +10,13 @@ Large scale computing has transformed scientific discovery both through physical
 
 This semester we will investigate the interface between machine learning and simulation. We'll look at the underlying structure of simulator models, and learn about energy-based, implicit and non-differentiable models. We'll discuss emerging ideas about how to do inference on simulators and how to interface with experimental data. We'll focus on the context of molecular dynamics and other simulation methods common in the molecular sciences. Overall, the aim is to provide a background for researchers interested in advancing the frontier of ML and simulation.
 
-**Thursdays 1-2:30pm, Building 207 Room 222 (DTU Chemistry). First meeting: February 25.**
+**Thursdays 1-2:30pm, Building 207 Room 222 (DTU Chemistry). First meeting: February 5.**
 
 **Please [sign up here](https://docs.google.com/forms/d/e/1FAIpQLSd8FExycwL2YYhU1ZjuRdjUoFsjAS0ELkdbVQPt7L9CZOxfmg/viewform?usp=header**) for the mailing list (scheduling announcements, etc.)**
 
 Reading list:
 
-1. Feb. 25: Sampling from energy-based models.\
+1. Feb. 5: Sampling from energy-based models.\
 Noé et al. 2019. Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning. <https://www.science.org/doi/10.1126/science.aaw1147>
 
 Tentative future papers/topics include
