@@ -12,7 +12,7 @@ I work on fundamental methodology in machine learning for molecules.
 I develop probabilistic methods to steer laboratory experiments (experimental design) 
 and to learn from natural experiments and observation (causal inference). 
 I aim to advance our basic understanding of how to learn about the molecular world.
-How can we estimate molecules' effects on complex biological systems? How can we design molecules with desired properties?
+How can we estimate molecules' effects on complex biological systems? How can we design and synthesize molecules with desired properties?
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
 to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3), or on 
@@ -57,7 +57,7 @@ the Molecular Machine Learning Conference (MoML) 2024.</sub>
 
 ### Causal Inference
 
-**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2024. Forthcoming at the Journal of Machine Learning Research. [paper](https://arxiv.org/abs/2401.05330). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
+**Eli N. Weinstein**, David M. Blei. *Hierarchical causal models.* 2026. Journal of Machine Learning Research. [paper](https://jmlr.org/papers/v27/25-0899.html). [code](https://github.com/EWeinstein/HCM). [talk](https://www.youtube.com/watch?v=ovOVaNMxN8c&ab_channel=ClimbSeminars).\
 <sub>We develop methods to draw causal inferences from nested data.</sub>
 
 **Eli N. Weinstein**, Elizabeth B. Wood, David M. Blei. *Estimating the causal effects of T cell receptors*. 2024. In submission. 
