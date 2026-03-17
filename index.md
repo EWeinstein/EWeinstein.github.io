@@ -15,8 +15,8 @@ I aim to advance our basic understanding of how to learn about the molecular wor
 How can we estimate molecules' effects on complex biological systems? How can we design and synthesize molecules with desired properties?
 
 If you would like to read more, I recommend my papers on [steering stochastic chemical reactions](https://proceedings.mlr.press/v151/weinstein22a) 
-to [synthesize DNA from generative models at scale](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3), or on 
-[building hierarchical causal models](https://arxiv.org/abs/2401.05330) to estimate the effects of [immune receptor proteins in humans](https://arxiv.org/abs/2410.14127).
+to [synthesize DNA from generative models at scale](https://www.nature.com/articles/s41587-026-03020-8.epdf?sharing_token=nxtSi5JJfLDmWxuh59Cf5NRgN0jAjWel9jnR3ZoTv0MWW1sfap6W2hdqzEjL8uVZLvR8QHQ8rgZwC0_yjXiCl44KF6id0jXvo682fgbIE4IWgRP7IJlOMqf0ZIUXCYqPwCP_07_b-Mb1bnR62vey0ddxzYtwGgcyXnEUC3UVIUo%3D), or on 
+[building hierarchical causal models](https://jmlr.org/papers/v27/25-0899.html) to estimate the effects of [immune receptor proteins in humans](https://arxiv.org/abs/2410.14127).
 
 My fundamental research is often motivated by applied problems in therapeutics and drug discovery. 
 I am part-time Director of Machine Learning Research at [Jura Bio](https://www.jura.bio), a genomic medicines startup, where my methods have been translated into
@@ -46,7 +46,7 @@ Email: enawe [at] dtu.dk
 **Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. Forthcoming at AISTATS. [preprint](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
 <sub> We develop a method to scale up models of protein function via co-design of data collection and inference algorithms. It takes advantage of variational synthesis to accelerate learning (below).<sub>
 
-**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2024. Forthcoming at Nature Biotechnology. [paper](https://www.biorxiv.org/content/10.1101/2024.09.13.612900v3). [blog](https://www.jura.bio/blog/variationalsynthesis).\
+**Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2026. Nature Biotechnology. [paper](https://www.nature.com/articles/s41587-026-03020-8.epdf?sharing_token=nxtSi5JJfLDmWxuh59Cf5NRgN0jAjWel9jnR3ZoTv0MWW1sfap6W2hdqzEjL8uVZLvR8QHQ8rgZwC0_yjXiCl44KF6id0jXvo682fgbIE4IWgRP7IJlOMqf0ZIUXCYqPwCP_07_b-Mb1bnR62vey0ddxzYtwGgcyXnEUC3UVIUo%3D). [blog](https://www.jura.bio/blog/variationalsynthesis).\
 <sub>We develop a method that reduces the cost of synthesizing proteins designed by a 
 generative model by as much as a trillion-fold. This work implements variational synthesis (below) in the laboratory. 
 At Jura Bio, we are using it for therapeutic discovery. A short version of this paper won a best paper award (top 4) at 
