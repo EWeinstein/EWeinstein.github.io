@@ -30,7 +30,9 @@ Please reach out if you are interested in working with me or collaborating.
 
 Email: enawe [at] dtu.dk
 
-**If you are interested in attending the ML & Molecules Reading Group at DTU, please click [here]({{ site.baseurl }}/mlmol).**
+If you are interested in attending the ML & Molecules Reading Group at DTU, please click [here]({{ site.baseurl }}/mlmol).
+
+**Open position: I am recruiting a postdoc to work on generative modeling and experimental design for combatting antimicrobial resistance. Apply [here](https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7077/?utm_medium=jobshare&utm_source=External+Job+Share).**
 
 ## Publications and preprints
 \*Equal contribution (first or last author)
