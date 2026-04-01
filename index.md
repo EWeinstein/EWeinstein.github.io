@@ -45,7 +45,7 @@ If you are interested in attending the ML & Molecules Reading Group at DTU, plea
 <sub> We develop a method to pack and extract more information from high throughput experiments, using variational synthesis (below). It is based on an extension of compressed sensing, from learning vectors to learning functions parameterized by neural networks. <sub>
 
 
-**Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* 2025. Forthcoming at AISTATS. [preprint](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
+**Eli N. Weinstein\***, Andrei Slabodkin\*, Mattia G. Gollub\*, Elizabeth B. Wood. *Accelerated learning on large scale screens using generative library models.* Forthcoming at AISTATS 2026. [preprint](https://arxiv.org/abs/2510.16612). [blog](https://www.jura.bio/blog/leavs).\
 <sub> We develop a method to scale up models of protein function via co-design of data collection and inference algorithms. It takes advantage of variational synthesis to accelerate learning (below).<sub>
 
 **Eli N. Weinstein\***, Mattia G. Gollub\*, Andrei Slabodkin\*, Cameron L. Gardner, Kerry Dobbs, Xiao-Bing Cui, Alan N. Amin, George M. Church, Elizabeth B. Wood. *Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale.* 2026. Nature Biotechnology. [paper](https://www.nature.com/articles/s41587-026-03020-8.epdf?sharing_token=nxtSi5JJfLDmWxuh59Cf5NRgN0jAjWel9jnR3ZoTv0MWW1sfap6W2hdqzEjL8uVZLvR8QHQ8rgZwC0_yjXiCl44KF6id0jXvo682fgbIE4IWgRP7IJlOMqf0ZIUXCYqPwCP_07_b-Mb1bnR62vey0ddxzYtwGgcyXnEUC3UVIUo%3D). [blog](https://www.jura.bio/blog/variationalsynthesis).\
@@ -82,7 +82,7 @@ We also apply this model to develop goodness-of-fit and two-sample tests for bio
 
 ### Model Misspecification
 
-Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* 2024. Revise & resubmit at JMLR. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
+Bohan Wu\*, **Eli N. Weinstein\***, Sohrab Salehi, Yixin Wang, David M. Blei. *Adaptive nonparametric perturbations of parametric Bayesian models.* Forthcoming at JMLR 2026. [paper](https://arxiv.org/abs/2412.10683). [code](https://github.com/bohanwu424/npp).\
 <sub>We develop a technique to robustify Bayesian models, guarding against model misspecification while preserving data efficiency.<sub>
 
 **Eli N. Weinstein**, Jeffrey W. Miller. *Bayesian data selection.* Journal of Machine Learning Research. 2023. [paper](https://www.jmlr.org/papers/v24/21-1067.html). [code](https://github.com/EWeinstein/data-selection). [talk](https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907).\
