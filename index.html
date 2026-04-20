@@ -69,6 +69,10 @@
   /* ── Home sections ── */
   .home-section { margin-top: 48px; }
 
+  /* ── Research page inline images ── */
+  .research-img { float: right; width: 38%; max-width: 280px; border-radius: 8px; margin: 0 0 16px 24px; }
+  @media (max-width: 600px) { .research-img { float: none; width: 100%; max-width: none; margin: 0 0 16px; } }
+
   /* ── Callout ── */
   .callout {
     margin-top: 24px; padding: 16px 20px;
@@ -312,7 +316,7 @@
   </div>
   <div class="home-section">
     <div class="section-label"><a href="#publications/pub-exp-design">Steering Laboratory Experiments</a></div>
-    <img src="https://eweinstein.github.io/images/vs-image.png" alt="Variational synthesis, Weinstein et al. Nature Biotechnology 2026">
+    <img class="research-img" src="https://eweinstein.github.io/images/vs-image.png" alt="Variational synthesis, Weinstein et al. Nature Biotechnology 2026">
     <div class="prose">
       <p> One major line of research is on the co-design of experiments and inference algorithms.
         We develop new ML methods to actively steer chemical synthesis, optimize high-throughput screening, and improve model training.
@@ -330,7 +334,7 @@
     </div>
 
     <div class="section-label"><a href="#publications/pub-causal">Learning from Natural Experiments</a></div>
-    <img src="https://eweinstein.github.io/images/nonid-image.png" alt="Blessings of misspecification, Weinstein et al., NeurIPS 2022.">
+    <img class="research-img" src="https://eweinstein.github.io/images/nonid-image.png" alt="Blessings of misspecification, Weinstein et al., NeurIPS 2022.">
     <div class="prose">
       <p>
         A second major line of research learns from natural experiments, outside the controlled environment of the laboratory.
