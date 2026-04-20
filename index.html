@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eli N. Weinstein</title>
+<style>
+  :root { --blue: #009af8; --blue-light: #e8f4fd; --blue-dark: #0080d0; --text: #1a1a1a; --text-secondary: #555; --text-tertiary: #777; --border: #e0e0e0; --border-light: #eee; --border-lightest: #f0f0f0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    background: #fff; color: var(--text);
+    font-size: 16px; line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--blue-dark); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ── Header ── */
+  header {
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: #fff; z-index: 100;
+  }
+  .header-inner {
+    max-width: 820px; margin: 0 auto; padding: 0 24px;
+    display: flex; align-items: center; justify-content: space-between; height: 52px;
+  }
+  .site-name {
+    font-size: 17px; font-weight: 600; color: var(--text);
+    letter-spacing: -0.01em; text-decoration: none;
+  }
+  .site-name:hover { text-decoration: none; opacity: 0.7; }
+
+  nav { display: flex; gap: 4px; }
+  nav a {
+    font-size: 14.5px; padding: 6px 14px; border-radius: 6px;
+    color: #666; transition: background 0.15s, color 0.15s;
+  }
+  nav a:hover, nav a.active { background: var(--blue-light); color: var(--blue-dark); text-decoration: none; }
+  nav a.active { font-weight: 500; }
+
+  /* ── Layout ── */
+  main { max-width: 820px; margin: 0 auto; padding: 40px 24px 80px; }
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ── Page title ── */
+  .page-title {
+    font-size: 26px; font-weight: 600; letter-spacing: -0.02em;
+    margin-bottom: 16px;
+  }
+
+  /* ── Section label (uppercase blue dividers) ── */
+  .section-label {
+    font-size: 13.5px; font-weight: 500; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--blue);
+    margin-bottom: 18px; padding-bottom: 6px; border-bottom: 1px solid var(--border-light);
+  }
+
+  /* ── Category heading (blue subheadings within pages) ── */
+  .cat-heading {
+    font-size: 18px; font-weight: 600; letter-spacing: -0.01em; color: var(--blue-dark);
+    margin: 40px 0 16px; scroll-margin-top: 68px;
+  }
+  .cat-heading:first-child { margin-top: 0; }
+
+  /* ── Home sections ── */
+  .home-section { margin-top: 48px; }
+
+  /* ── Callout ── */
+  .callout {
+    margin-top: 24px; padding: 16px 20px;
+    background: var(--blue-light); border-left: 3px solid var(--blue);
+    border-radius: 0 8px 8px 0; font-size: 15px; line-height: 1.6;
+  }
+
+  /* ── Body text (reusable for descriptions and prose) ── */
+  .prose p { margin-bottom: 12px; color: #2a2a2a; }
+  .prose p:last-child { margin-bottom: 0; }
+
+  /* ── Bio grid ── */
+  .bio-grid { display: grid; grid-template-columns: 170px 1fr; gap: 32px; align-items: start; }
+  .bio-photo { width: 170px; border-radius: 10px; }
+  .bio-links { margin-top: 14px; font-size: 14px; line-height: 2; }
+  .bio-links .bio-email { font-weight: 500; color: var(--blue-dark); font-size: 15px; }
+
+  /* ── Publication cards ── */
+  .pub { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid var(--border-lightest); }
+  .pub:last-child { border-bottom: none; padding-bottom: 0; }
+  .pub-title { font-weight: 500; font-size: 16px; margin-bottom: 3px; }
+  .pub-authors { font-size: 14.5px; color: var(--text-secondary); margin-bottom: 4px; }
+  .pub-venue { font-size: 14.5px; color: var(--text-tertiary); font-style: italic; margin-bottom: 6px; }
+  .pub-links { font-size: 14px; }
+  .pub-links a { margin-right: 10px; color: var(--blue); }
+  .pub-links a:hover { color: var(--blue-dark); }
+  .pub-desc { font-size: 14.5px; color: #444; margin-top: 6px; }
+
+  /* ── Annotation ── */
+  .page-note { font-size: 14.5px; color: var(--text-secondary); margin-bottom: 24px; }
+
+  /* ── People ── */
+  .people-section { margin-bottom: 40px; }
+  .pi-card {
+    display: grid; grid-template-columns: 140px 1fr; gap: 28px; align-items: start;
+  }
+  .pi-card img {
+    width: 140px; height: 140px; border-radius: 50%; object-fit: cover; background: #f0f0f0;
+  }
+  .pi-card + .pi-card { margin-top: 28px; }
+  .person-name { font-weight: 600; font-size: 18px; margin-bottom: 2px; }
+  .person-role { font-size: 15px; color: var(--text-secondary); margin-bottom: 10px; }
+  .pi-details { font-size: 14.5px; line-height: 1.7; color: #444; }
+  .pi-details .detail-label { font-weight: 500; color: #333; }
+
+  /* ── Sub-tabs (teaching) ── */
+  .sub-tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 32px; }
+  .sub-tabs a {
+    font-size: 14px; border: 1px solid #ddd; padding: 5px 14px; border-radius: 5px;
+    color: var(--text-secondary); transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+  .sub-tabs a:hover { background: var(--blue-light); color: var(--blue-dark); border-color: #ccc; text-decoration: none; }
+  .sub-tabs a.active { background: var(--blue); color: #fff; border-color: var(--blue); text-decoration: none; }
+  .teaching-page { display: none; }
+  .teaching-page.active { display: block; }
+
+  /* ── Course content ── */
+  .course-header-img { display: block; width: 100%; max-width: 600px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; margin-bottom: 20px; }
+  .course-desc { margin-bottom: 20px; }
+  .course-desc p + p { margin-top: 10px; }
+
+  /* ── Reading list ── */
+  .reading-list { margin-top: 20px; }
+  .reading-list h3 { font-size: 16px; font-weight: 500; margin-bottom: 12px; }
+  .reading-item {
+    margin-bottom: 14px; padding-left: 20px; position: relative; font-size: 15px;
+  }
+  .reading-item .num { position: absolute; left: 0; font-weight: 500; color: var(--blue); font-size: 14px; }
+  .reading-item .topic { font-weight: 500; }
+  .tentative-topics { margin-top: 16px; font-size: 15px; color: var(--text-secondary); }
+  .about-group {
+    margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--border-light);
+    font-size: 15px; color: var(--text-secondary);
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 600px) {
+    .bio-grid { grid-template-columns: 1fr; text-align: center; }
+    .bio-photo { margin: 0 auto 8px; width: 140px; }
+    .pi-card { grid-template-columns: 1fr; text-align: center; }
+    .pi-card img { margin: 0 auto; }
+    .header-inner { flex-direction: column; height: auto; padding: 10px 16px; gap: 6px; }
+    nav { flex-wrap: wrap; justify-content: center; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="site-name" href="#home">Eli N. Weinstein</a>
+    <nav id="main-nav">
+      <a href="#home">Home</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#people">People</a>
+      <a href="#teaching">Teaching</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ════════════════ HOME ════════════════ -->
+<div class="page" id="home">
+
+  <div class="bio-grid">
+    <div>
+      <img class="bio-photo" src="https://eweinstein.github.io/images/Eli_Weinstein_v2.png" alt="Eli N. Weinstein">
+      <div class="bio-links">
+        enawe [at] dtu.dk<br>
+        <a href="bio.txt" target="_blank">Short bio (plaintext)</a><br>
+        <a href="https://scholar.google.com/citations?user=Tkv7cWAAAAAJ&hl=en" target="_blank">Google Scholar</a><br>
+        <a href="https://github.com/EWeinstein" target="_blank">GitHub</a><br>
+      </div>
+    </div>
+    <div class="prose">
+      <h1 class="page-title">Eli N. Weinstein</h1>
+      <p>
+        I am an assistant professor of chemistry at the 
+        <a href="https://www.kemi.dtu.dk/english/research/physical-chemistry/eli-nathan-weinstein-group" target="_blank">Technical University of Denmark (DTU)</a>.
+        I am a member of the <a href="https://ellis.eu/" target="_blank">European Laboratory for Learning and Intelligent Systems (ELLIS)</a>, a member of the
+        <a href="https://www.aicentre.dk/" target="_blank">Pioneer Centre for AI</a> in Copenhagen,
+        and a member of the <a href="https://ctpd.dtu.dk/" target="_blank">Center for Translational Protein Design (CTPD)</a> at DTU.
+        I also serve part-time as Director of Machine Learning Research at <a href="https://www.jura.bio" target="_blank">Jura Bio</a>, a genomic medicines startup.
+      </p>
+      <p>
+        I work on fundamental machine learning methodology for molecules. I develop probabilistic and generative methods to steer chemical synthesis and high-throughput screening,
+        and to learn from natural experiments in humans and the environment. I aim to advance our basic understanding of how to learn about the molecular world, from both an applied and a theoretical perspective. 
+      </p>
+      <p>
+        Previously, I was a postdoctoral research scientist with <a href="https://www.cs.columbia.edu/~blei/" target="_blank">David Blei</a>
+        in the Data Science Institute at Columbia University.
+        I received my PhD in Biophysics from Harvard University in 2022,
+        advised by <a href="https://marks.hms.harvard.edu/index.html" target="_blank">Debora Marks</a>
+        and <a href="https://jwmi.github.io/" target="_blank">Jeff Miller</a>,
+        as a <a href="https://www.hertzfoundation.org/" target="_blank">Hertz Foundation Fellow</a>.
+        I received my A.B. in Chemistry and Physics with highest honors from Harvard in 2016,
+        working with <a href="https://cohenweb.rc.fas.harvard.edu/" target="_blank">Adam Cohen</a>.
+      </p>
+      <p>
+        Please reach out if you are interested in working with me or collaborating.
+      </p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <strong>Open position:</strong> I am recruiting a postdoc to work on generative modeling and experimental design for combatting antimicrobial resistance.
+    <a href="https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7077/?utm_medium=jobshare&utm_source=External+Job+Share" target="_blank">Apply here</a>.
+  </div>
+
+  <div class="home-section">
+    <div class="section-label">Featured Publications</div>
+
+    <div class="pub">
+      <div class="pub-title">Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale</div>
+      <div class="pub-authors">Eli N. Weinstein*, Mattia G. Gollub*, Andrei Slabodkin*, Kerry Dobbs*, Xiao-Bing Cui*, Cameron L. Gardner, Ryan J. Grant, Kristina Gurung, Amira Bailey, Alan N. Amin, George M. Church, Elizabeth B. Wood</div>
+      <div class="pub-venue">Nature Biotechnology, 2026</div>
+      <div class="pub-links">
+        <a href="https://doi.org/10.1038/s41587-026-03020-8" target="_blank">paper</a>
+        <a href="https://www.jura.bio/blog/variationalsynthesis" target="_blank">blog</a>
+      </div>
+      <div class="pub-desc">A method that reduces the cost of synthesizing proteins designed by a generative model by as much as a trillion-fold. Best paper award (top 4) at MoML 2024.</div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-title">Hierarchical causal models</div>
+      <div class="pub-authors">Eli N. Weinstein, David M. Blei</div>
+      <div class="pub-venue">Journal of Machine Learning Research, 2026</div>
+      <div class="pub-links">
+        <a href="https://jmlr.org/papers/v27/25-0899.html" target="_blank">paper</a>
+        <a href="https://github.com/EWeinstein/HCM" target="_blank">code</a>
+        <a href="https://www.youtube.com/watch?v=ovOVaNMxN8c" target="_blank">talk</a>
+      </div>
+      <div class="pub-desc">Methods to draw causal inferences from nested datasets, e.g., datasets with many molecules per person.</div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-title">Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny</div>
+      <div class="pub-authors">Eli N. Weinstein*, Alan N. Amin*, Jonathan Frazer, Debora S. Marks</div>
+      <div class="pub-venue">NeurIPS 2022 (Oral)</div>
+      <div class="pub-links">
+        <a href="https://openreview.net/pdf?id=CwG-o0ind6t" target="_blank">paper</a>
+      </div>
+      <div class="pub-desc">Analysis of the fundamental limits of generative sequence models for protein evolution, and biophysical/statistical reasons for their empirical success as fitness estimators.</div>
+    </div>
+  </div>
+
+  <div class="home-section">
+    <div class="section-label">Recent Publications</div>
+
+    <div class="pub">
+      <div class="pub-title">Lifting biomolecular data acquisition</div>
+      <div class="pub-authors">Eli N. Weinstein*, Andrei Slabodkin*, Mattia G. Gollub*, Kerry Dobbs*, Xiao-Bing Cui*, Fang Zhang, Kristina Gurung, Elizabeth B. Wood</div>
+      <div class="pub-venue">arXiv, 2025</div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2512.15984v1" target="_blank">preprint</a>
+        <a href="https://www.jura.bio/blog/leavs" target="_blank">blog</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-title">Accelerated learning on large scale screens using generative library models</div>
+      <div class="pub-authors">Eli N. Weinstein*, Andrei Slabodkin*, Mattia G. Gollub*, Elizabeth B. Wood</div>
+      <div class="pub-venue">Forthcoming at AISTATS 2026</div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2510.16612" target="_blank">paper</a>
+        <a href="https://www.jura.bio/blog/leavs" target="_blank">blog</a>
+      </div>
+    </div>
+
+    <div class="pub">
+      <div class="pub-title">Adaptive nonparametric perturbations of parametric Bayesian models</div>
+      <div class="pub-authors">Bohan Wu*, Eli N. Weinstein*, Sohrab Salehi, Yixin Wang, David M. Blei</div>
+      <div class="pub-venue">Forthcoming at JMLR 2026</div>
+      <div class="pub-links">
+        <a href="https://arxiv.org/abs/2412.10683" target="_blank">paper</a>
+        <a href="https://github.com/bohanwu424/npp" target="_blank">code</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════════════ RESEARCH ════════════════ -->
+<div class="page" id="research">
+  <h1 class="page-title">Machine Learning for Molecules</h1>
+  <div class="prose">
+    <p>
+      Our research is on fundamental machine learning methodology for molecules.
+      We develop probabilistic and generative methods to steer chemical synthesis and high-throughput screening,
+      and to learn from natural experiments in humans and the environment.
+      </p><p>
+      We aim to advance our basic understanding of how to learn about the molecular world.
+      How can we estimate molecules' effects on complex biological systems?
+      How can we design and synthesize molecules with desired properties?
+      How can we traverse chemical space to find useful molecules?
+      </p><p>
+      We investigate these questions from both an applied and a theoretical perspective.
+    </p>
+  </div>
+  <div class="home-section">
+    <div class="section-label"><a href="#publications/pub-exp-design">Steering Laboratory Experiments</a></div>
+    <div class="prose">
+      <p> One major line of research is on the co-design of experiments and inference algorithms.
+        We develop new ML methods to actively steer chemical synthesis, optimize high-throughput screening, and improve model training.
+        This tight integration of laboratory data generation and algorithmic development accelerates molecular discovery.
+        We apply these techniques to design and discover therapeutics, enzymes and more.
+      </p>
+
+      <p>
+        Our work intersects with experimental design, generative modeling, Bayesian optimization, and laboratory automation.
+        We are especially motivated by a desire to understand how the unique properties of molecular systems might let us overcome the limits of conventional ML experimental design and optimization.
+        We develop algorithms that can exploit randomness, stochasticity and heterogeneity at the molecular level to pack more information into experiments.
+        We use these techniques to overcome the unique learning challenges of molecular discovery, such as rare properties, sparse structure-activity relationships, and discrete combinatorial spaces.
+      </p>
+      <p> </p>
+    </div>
+
+    <div class="section-label"><a href="#publications/pub-causal">Learning from Natural Experiments</a></div>
+    <div class="prose">
+      <p>
+        A second major line of research learns from natural experiments, outside the controlled environment of the laboratory.
+        This includes large-scale evolutionary processes, environmental samples and patient-derived data. 
+        Molecules made in nature often have properties that are difficult to reproduce synthetically, such as the bioactivity of natural products or the function of proteins in the human body.
+        We develop ML methods that can learn from natural experiments to design molecules with properties that are challenging to test in the laboratory, such as therapeutic safety and efficacy.
+      </p>
+      <p>
+        Our work intersects with generative models, causal inference, and human and evolutionary biology.
+        Generative models have proven to be powerful tools for learning the constraints on molecules imposed by evolution, but their inferences are biased, imperfect and incomplete.
+        We investigate methods that can exploit the scale and diversity of natural experiments to learn the true range of molecular possibilities, and to align generative models of molecules with underlying biology. 
+        We aim to systematically bridge generalization gaps between the laboratory and the outside world, such as the valley of death between preclinical experiments and clinical trials in humans.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ PUBLICATIONS ════════════════ -->
+<div class="page" id="publications">
+
+  <div class="sub-tabs" id="pub-nav">
+    <a data-scroll="pub-exp-design">Steering Laboratory Experiments</a>
+    <a data-scroll="pub-causal">Learning from Natural Experiments</a>
+    <a data-scroll="pub-nonparam">Probabilistic Foundations</a>
+    <a data-scroll="pub-thesis">PhD Thesis</a>
+    <a data-scroll="pub-additional">Older</a>
+  </div>
+
+  <p class="page-note">*Equal contribution &nbsp;·&nbsp; <a href="https://scholar.google.com/citations?user=Tkv7cWAAAAAJ&hl=en" target="_blank">Google Scholar</a></p>
+
+  <div class="cat-heading" id="pub-exp-design">Steering Laboratory Experiments</div>
+
+  <div class="pub">
+    <div class="pub-title">Lifting biomolecular data acquisition</div>
+    <div class="pub-authors">Eli N. Weinstein*, Andrei Slabodkin*, Mattia G. Gollub*, Kerry Dobbs*, Xiao-Bing Cui*, Fang Zhang, Kristina Gurung, Elizabeth B. Wood</div>
+    <div class="pub-venue">arXiv, 2025</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2512.15984v1" target="_blank">preprint</a>
+      <a href="https://www.jura.bio/blog/leavs" target="_blank">blog</a>
+    </div>
+    <div class="pub-desc">A method to pack and extract more information from high throughput experiments, using variational synthesis. Based on an extension of compressed sensing, from learning vectors to learning functions parameterized by neural networks.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Accelerated learning on large scale screens using generative library models</div>
+    <div class="pub-authors">Eli N. Weinstein*, Andrei Slabodkin*, Mattia G. Gollub*, Elizabeth B. Wood</div>
+    <div class="pub-venue">Forthcoming at AISTATS 2026</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2510.16612" target="_blank">paper</a>
+      <a href="https://www.jura.bio/blog/leavs" target="_blank">blog</a>
+    </div>
+    <div class="pub-desc">A method to scale up models of protein function via co-design of data collection and inference algorithms, taking advantage of variational synthesis to accelerate learning.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Manufacturing-aware generative model architectures enable biological sequence design and synthesis at petascale</div>
+    <div class="pub-authors">Eli N. Weinstein*, Mattia G. Gollub*, Andrei Slabodkin*, Kerry Dobbs*, Xiao-Bing Cui*, Cameron L. Gardner, Ryan J. Grant, Kristina Gurung, Amira Bailey, Alan N. Amin, George M. Church, Elizabeth B. Wood</div>
+    <div class="pub-venue">Nature Biotechnology, 2026</div>
+    <div class="pub-links">
+      <a href="https://doi.org/10.1038/s41587-026-03020-8" target="_blank">paper</a>
+      <a href="https://www.jura.bio/blog/variationalsynthesis" target="_blank">blog</a>
+    </div>
+    <div class="pub-desc">A method that reduces the cost of synthesizing proteins designed by a generative model by as much as a trillion-fold. Best paper award (top 4) at MoML 2024.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Optimal design of stochastic DNA synthesis protocols based on generative sequence models</div>
+    <div class="pub-authors">Eli N. Weinstein, Alan N. Amin, Will Grathwohl, Adeline Kassler, Jean Disset, Debora S. Marks</div>
+    <div class="pub-venue">AISTATS 2022</div>
+    <div class="pub-links">
+      <a href="https://proceedings.mlr.press/v151/weinstein22a" target="_blank">paper</a>
+      <a href="https://github.com/debbiemarkslab/variational-synthesis" target="_blank">code</a>
+      <a href="https://www.youtube.com/watch?v=_h0S9pmcwgI" target="_blank">talk</a>
+    </div>
+    <div class="pub-desc">An experimental design method to efficiently manufacture samples from generative models in the real world.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Co-evolution of interacting proteins through non-contacting and non-specific mutations</div>
+    <div class="pub-authors">David Ding, Anna G Green, Boyuan Wang, Thuy-Lan Vo Lite, Eli N. Weinstein, Debora S Marks, Michael T Laub</div>
+    <div class="pub-venue">Nature Ecology and Evolution, 2022</div>
+    <div class="pub-links">
+      <a href="https://www.nature.com/articles/s41559-022-01688-0" target="_blank">paper</a>
+    </div>
+    <div class="pub-desc">One of the first deep mutational scans of a protein-protein interaction.</div>
+  </div>
+
+  <div class="cat-heading" id="pub-causal">Learning from Natural Experiments</div>
+
+  <div class="pub">
+    <div class="pub-title">Hierarchical causal models</div>
+    <div class="pub-authors">Eli N. Weinstein, David M. Blei</div>
+    <div class="pub-venue">Journal of Machine Learning Research, 2026</div>
+    <div class="pub-links">
+      <a href="https://jmlr.org/papers/v27/25-0899.html" target="_blank">paper</a>
+      <a href="https://github.com/EWeinstein/HCM" target="_blank">code</a>
+      <a href="https://www.youtube.com/watch?v=ovOVaNMxN8c" target="_blank">talk</a>
+    </div>
+    <div class="pub-desc">Methods to draw causal inferences from nested data.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Estimating the causal effects of T cell receptors</div>
+    <div class="pub-authors">Eli N. Weinstein, Elizabeth B. Wood, David M. Blei</div>
+    <div class="pub-venue">arXiv, 2024</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2410.14127" target="_blank">preprint</a>
+    </div>
+    <div class="pub-desc">Estimating the effect of T cells with a specific TCR on patient outcomes, using hierarchical causal models.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">ProGen2: exploring the boundaries of protein language models</div>
+    <div class="pub-authors">Erik Nijkamp, Jeffrey Ruffolo, Eli N. Weinstein, Nikhil Naik, Ali Madani</div>
+    <div class="pub-venue">Cell Systems, 2023</div>
+    <div class="pub-links">
+      <a href="https://www.cell.com/cell-systems/abstract/S2405-4712(23)00272-7" target="_blank">paper</a>
+    </div>
+    <div class="pub-desc">Exploration of very large scale generative sequence models trained on massive sequence datasets.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Non-identifiability and the blessings of misspecification in models of molecular fitness and phylogeny</div>
+    <div class="pub-authors">Eli N. Weinstein*, Alan N. Amin*, Jonathan Frazer, Debora S. Marks</div>
+    <div class="pub-venue">NeurIPS 2022 (Oral)</div>
+    <div class="pub-links">
+      <a href="https://openreview.net/pdf?id=CwG-o0ind6t" target="_blank">paper</a>
+      <a href="https://harvard.zoom.us/rec/share/NFsmlTHeL9FQb1V1MnJtKaG9sImezdX3cwlFadP22euNED__1WInzXteUUYMxPeB.YLiCg84HOz0yzYAO" target="_blank">talk</a>
+    </div>
+    <div class="pub-desc">Analysis of the fundamental limits of generative sequence models for protein evolution. Oral presentation at NeurIPS.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">A structured observation distribution for generative biological sequence prediction and forecasting</div>
+    <div class="pub-authors">Eli N. Weinstein, Debora S. Marks</div>
+    <div class="pub-venue">ICML 2021</div>
+    <div class="pub-links">
+      <a href="https://proceedings.mlr.press/v139/weinstein21a.html" target="_blank">paper</a>
+      <a href="https://docs.pyro.ai/en/dev/contrib.mue.html" target="_blank">Pyro code</a>
+      <a href="https://github.com/debbiemarkslab/MuE" target="_blank">Edward2 code</a>
+      <a href="https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s" target="_blank">talk</a>
+    </div>
+    <div class="pub-desc">An observation distribution for biological sequences enabling regression from covariates to sequences, applied to forecasting viral antigen evolution.</div>
+  </div>
+
+  <div class="cat-heading" id="pub-nonparam">Probabilistic Foundations</div>
+
+  <div class="pub">
+    <div class="pub-title">Adaptive nonparametric perturbations of parametric Bayesian models</div>
+    <div class="pub-authors">Bohan Wu*, Eli N. Weinstein*, Sohrab Salehi, Yixin Wang, David M. Blei</div>
+    <div class="pub-venue">Forthcoming at JMLR 2026</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/abs/2412.10683" target="_blank">paper</a>
+      <a href="https://github.com/bohanwu424/npp" target="_blank">code</a>
+    </div>
+    <div class="pub-desc">A technique to robustify Bayesian models, guarding against model misspecification while preserving data efficiency.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Biological sequence kernels with guaranteed flexibility</div>
+    <div class="pub-authors">Alan N. Amin, Debora S. Marks*, Eli N. Weinstein*</div>
+    <div class="pub-venue">Journal of Machine Learning Research, 2025</div>
+    <div class="pub-links">
+      <a href="https://jmlr.org/papers/v26/23-0455.html" target="_blank">paper</a>
+    </div>
+    <div class="pub-desc">Analysis of the flexibility of kernels for biological sequences, with fixes enabling consistent nonparametric regression and two-sample tests. Best student paper, NESS 2023.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Bayesian Empirical Bayes: Simultaneous Inference from Probabilistic Symmetries</div>
+    <div class="pub-authors">Bohan Wu, Eli N. Weinstein, David M. Blei</div>
+    <div class="pub-venue">arXiv, 2025</div>
+    <div class="pub-links">
+      <a href="https://arxiv.org/pdf/2512.16239" target="_blank">preprint</a>
+    </div>
+    <div class="pub-desc">Methods to reconstruct latent variables from complex structured data, leveraging group theory.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">A kernelized Stein discrepancy for biological sequences</div>
+    <div class="pub-authors">Alan N. Amin, Eli N. Weinstein*, Debora S. Marks*</div>
+    <div class="pub-venue">ICML 2023</div>
+    <div class="pub-links">
+      <a href="https://openreview.net/forum?id=8LdBTjylEw" target="_blank">paper</a>
+    </div>
+    <div class="pub-desc">A new discrepancy for biological sequence distributions, usable for measuring goodness-of-fit or sample quality of generative sequence models.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Bayesian data selection</div>
+    <div class="pub-authors">Eli N. Weinstein, Jeffrey W. Miller</div>
+    <div class="pub-venue">Journal of Machine Learning Research, 2023</div>
+    <div class="pub-links">
+      <a href="https://www.jmlr.org/papers/v24/21-1067.html" target="_blank">paper</a>
+      <a href="https://github.com/EWeinstein/data-selection" target="_blank">code</a>
+      <a href="https://neurips.cc/virtual/2021/workshop/21872#wse-detail-36907" target="_blank">talk</a>
+    </div>
+    <div class="pub-desc">A technique to discover which aspects of a data set a Bayesian model can explain. Best student paper, NESS 2021.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">A generative nonparametric Bayesian model for whole genomes</div>
+    <div class="pub-authors">Alan N. Amin*, Eli N. Weinstein*, Debora S. Marks</div>
+    <div class="pub-venue">NeurIPS 2021</div>
+    <div class="pub-links">
+      <a href="https://proceedings.neurips.cc/paper/2021/hash/e9dcb63ca828d0e00cd05b445099ed2e-Abstract.html" target="_blank">paper</a>
+      <a href="https://github.com/debbiemarkslab/BEAR" target="_blank">code</a>
+      <a href="https://www.youtube.com/watch?v=bR8Ct75w3YE&t=2737s" target="_blank">talk</a>
+    </div>
+    <div class="pub-desc">A scalable nonparametric model for biological sequences with established asymptotic consistency and convergence rate.</div>
+  </div>
+
+
+  <div class="cat-heading" id="pub-thesis">PhD Thesis</div>
+
+  <div class="pub">
+    <div class="pub-title">Generative Statistical Methods for Biological Sequences</div>
+    <div class="pub-authors">Eli N. Weinstein</div>
+    <div class="pub-venue">Harvard University, 2022</div>
+    <div class="pub-links">
+      <a href="https://eweinstein.github.io/papers/dissertation.pdf" target="_blank">pdf</a>
+    </div>
+  </div>
+
+  <div class="cat-heading" id="pub-additional">Older</div>
+
+
+  <div class="pub">
+    <div class="pub-title">All-optical electrophysiology for high-throughput functional characterization of a human iPSC-derived motor neuron model of ALS</div>
+    <div class="pub-authors">Evangelos Kiskinis*, Joel M Kralj*, Peng Zou*, Eli N. Weinstein*, Hongkang Zhang, Konstantinos Tsioras, Ole Wiskow, J Alberto Ortega, Kevin Eggan, Adam E Cohen</div>
+    <div class="pub-venue">Stem Cell Reports, 2018</div>
+    <div class="pub-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S2213671118301887" target="_blank">paper</a>
+    </div>
+    <div class="pub-desc">A high-throughput screening platform for measuring electrophysiological properties of human neurons.</div>
+  </div>
+
+  <div class="pub">
+    <div class="pub-title">Genetically targeted all-optical electrophysiology with a transgenic Cre-dependent optopatch mouse</div>
+    <div class="pub-authors">Shan Lou, Yoav Adam, Eli N. Weinstein, Erika Williams, Katherine Williams, Vicente Parot, Nikita Kavokine, Stephen Liberles, Linda Madisen, Hongkui Zeng, Adam E Cohen</div>
+    <div class="pub-venue">Journal of Neuroscience, 2016</div>
+    <div class="pub-links">
+      <a href="https://www.jneurosci.org/content/36/43/11059" target="_blank">paper</a>
+    </div>
+    <div class="pub-desc">A transgenic mouse for optical electrophysiology studies in genetically-defined subsets of cells.</div>
+  </div>
+
+
+
+</div>
+
+<!-- ════════════════ PEOPLE ════════════════ -->
+<div class="page" id="people">
+
+  <div class="people-section">
+    <div class="section-label">Principal Investigator</div>
+    <div class="pi-card">
+      <img src="https://eweinstein.github.io/images/Eli_Weinstein_v2.png" alt="Eli N. Weinstein">
+      <div>
+        <div class="person-name"><a href="https://www.dtu.dk/english/person/eli-nathan-weinstein?id=224217&entity=profile" target="_blank">Eli N. Weinstein</a></div>
+        <div class="person-role">Assistant Professor, DTU Chemistry</div>
+        <div class="pi-details">
+          <p><span class="detail-label">Affiliations:</span> <a href="https://www.kemi.dtu.dk/english/research/physical-chemistry/eli-nathan-weinstein-group" target="_blank">DTU Department of Chemistry</a> · <a href="https://www.jura.bio" target="_blank">Jura Bio</a></p>
+          <p><span class="detail-label">Office:</span> Building 206, Room 258, Kemitorvet, 2800 Kgs. Lyngby</p>
+          <p><span class="detail-label">Email:</span> enawe [at] dtu.dk</p>
+          <p><a href="bio.txt" target="_blank">Brief bio</a> (plain text)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="people-section">
+    <div class="section-label">PhD Students</div>
+    <div class="pi-card">
+      <img src="https://eweinstein.github.io/images/headshot_kasper.jpg" alt="Kasper Krunderup Jakobsen">
+      <div>
+        <div class="person-name"><a href="https://www.dtu.dk/english/person/kasper-krunderup-jakobsen?id=155603&entity=profile" target="_blank">Kasper Krunderup Jakobsen</a></div>
+        <div class="person-role">DTU Chemistry</div>
+        <div class="pi-details">
+          <p><span class="detail-label">Email:</span> kkrja [at] kemi.dtu.dk</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="people-section">
+    <div class="section-label">Join Us</div>
+    <div class="prose">
+      <p>
+        I am always looking for motivated students, postdocs, and collaborators interested in
+        probabilistic machine learning and its applications to the molecular sciences.
+        Please reach out if you are interested: enawe [at] dtu.dk
+      </p>
+    </div>
+    <div class="callout">
+      <strong>Open position:</strong> I am recruiting a postdoc to work on generative modeling and experimental design for combatting antimicrobial resistance.
+      <a href="https://efzu.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/7077/?utm_medium=jobshare&utm_source=External+Job+Share" target="_blank">Apply here</a>.
+    </div>
+  </div>
+</div>
+
+<!-- ════════════════ TEACHING ════════════════ -->
+<div class="page" id="teaching">
+
+  <div class="sub-tabs" id="teaching-nav">
+    <a href="#teaching/spring2026">Spring 2026</a>
+    <a href="#teaching/fall2025">Fall 2025</a>
+  </div>
+
+  <!-- Spring 2026 -->
+  <div class="teaching-page active" id="course-spring2026">
+    <img class="course-header-img" src="https://eweinstein.github.io/images/MLMol_Spring_2026.jpg" alt="ML & Molecules Reading Group, Spring 2026">
+
+    <h2 class="cat-heading">ML and Molecules Reading Group — Spring 2026</h2>
+
+    <p>
+    The ML & Molecules reading group covers fundamental machine learning methodology and its intersection with the molecular sciences.
+    This semester we are covering two major topics: first, the interface of machine learning and simulation, and second, experimental design and planning in the time domain.
+    </p>
+
+    <div class="callout">
+      Thursdays 1–2:30 pm, Building 207 Room 222 (DTU Chemistry). First meeting: February 5.<br>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8FExycwL2YYhU1ZjuRdjUoFsjAS0ELkdbVQPt7L9CZOxfmg/viewform?usp=header" target="_blank">Sign up for the mailing list</a>
+    </div>
+
+    <div class="reading-list">
+      <h2>Simulators</h2>
+      <p> Large scale computing has transformed scientific discovery both through physical simulation and through machine learning. 
+        Yet these two forms of scientific computing sit in uneasy relationship, operating with distinct logic and methodology.
+      We will investigate the interface between machine learning and simulation
+      </p>
+      <div class="reading-item"><span class="num">1.</span> <span class="topic">Feb. 5: Fast sampling from energy-based models for molecular systems.</span><br>Noé et al. 2019. <em>Boltzmann generators: Sampling equilibrium states of many-body systems with deep learning.</em> <a href="https://www.science.org/doi/10.1126/science.aaw1147" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">2.</span> <span class="topic">Feb. 12: Learning energy-based models.</span><br>Hyvärinen. 2005. <em>Estimation of non-normalized statistical models by score matching.</em> <a href="https://jmlr.org/papers/volume6/hyvarinen05a/hyvarinen05a.pdf" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">3.</span> <span class="topic">Feb. 19: Learning, sampling and simulating trajectories with energy-based models for molecular systems.</span><br>Plainer et al. 2025. <em>Consistent Sampling and Simulation: Molecular Dynamics with Energy-Based Diffusion Models</em> <a href="https://arxiv.org/abs/2506.17139" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">4.</span> <span class="topic">Feb. 26: Learning in implicit generative models.</span><br>Mohamed and Lakshminarayanan. 2016. <em>Learning in implicit generative models.</em> <a href="https://arxiv.org/abs/1610.03483" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">5.</span> <span class="topic">Mar. 5: Learning energy-based models for molecular systems by learning forces.</span><br>Kabylda et al. 2025. <em>Molecular Simulations with a Pretrained Neural Network and Universal Pairwise Force Fields.</em> <a href="https://pubs.acs.org/doi/10.1021/jacs.5c09558" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">6.</span> <span class="topic">Mar. 12: Inference in implicit models with simulation based inference.</span><br>Papamakarios and Murray. 2016. <em>Fast ε-free Inference of Simulation Models with Bayesian Conditional Density Estimation.</em> <a href="https://proceedings.neurips.cc/paper_files/paper/2016/file/6aca97005c68f1206823815f66102863-Paper.pdf" target="_blank">link</a></div>
+      <h2>Experimental Design in Time</h2>
+      <p>Current machine learning techniques for molecular discovery typically rely on separate controlled experiments of different molecules. These techniques are often bottlenecked in throughput.
+        We study alternative experimental designs that test the effects of different interventions by turning them on or off over time. 
+        In these experiments, the time dynamics of the system set the speed of information gain. To understand these dynamics, we further study biological systems' response to perturbations.
+      </p><p></p>
+      <div class="reading-item"><span class="num">1.</span> <span class="topic">Mar. 19: Adaptive experiments in time.</span><br>Glynn et al. 2020. <em>Adaptive Experimental Design with Temporal Interference: A Maximum Likelihood Approach.</em> <a href="https://proceedings.neurips.cc/paper/2020/file/abd987257ff0eddc2bc6602538cb3c43-Paper.pdf" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">2.</span> <span class="topic">Mar. 26: N-of-1 experiments.</span><br>Liang and Recht. 2023. <em>Randomization Inference When N Equals One.</em> <a href="https://arxiv.org/abs/2310.16989" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">3.</span> <span class="topic">Apr. 16: Time dynamics of cells and populations.</span><br>Schiebinger et al. 2019. <em>Optimal-Transport Analysis of Single-Cell Gene Expression Identifies Developmental Trajectories in Reprogramming.</em> <a href="https://www.cell.com/cell/fulltext/S0092-8674(19)30039-X" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">4.</span> <span class="topic">Apr. 23: Time dynamics of cells in response to perturbation.</span><br>Lorch et al. 2026. <em>Latent Causal Diffusions for Single-Cell Perturbation Modeling.</em> <a href="https://arxiv.org/pdf/2601.15341" target="_blank">link</a></div>
+      
+    </div>
+
+    <div class="about-group">
+      <strong>About ML &amp; Molecules:</strong> ML &amp; Molecules is a reading group organized by Asst. Prof. Eli Weinstein (DTU Chemistry) and Assoc. Prof. Jes Frellsen (DTU Compute). It focuses on fundamental probabilistic machine learning and its intersection with the molecular sciences. Everyone in the group presents a paper, in a rotating schedule. It is open to students, postdocs, faculty and staff. It is not a formal course, but can optionally be taken as a project course for course credit.<br>
+      Contact: enawe [at] dtu.dk
+    </div>
+  </div>
+
+  <!-- Fall 2025 -->
+  <div class="teaching-page" id="course-fall2025">
+    <img class="course-header-img" src="https://eweinstein.github.io/images/MLMol_Fall_2025.png" alt="ML & Molecules Reading Group, Fall 2025">
+
+    <h2 class="cat-heading">ML and Molecules Reading Group — Fall 2025</h2>
+
+    <div class="course-desc prose">
+      <p>Machine learning and AI have transformed scientific data analysis. But the experiments that generate data are usually taken as given. Better algorithmic control of scientific experiments could lead to better learning, enabling the next generation of scientific AI.</p>
+      <p>This semester, we studied the fundamental theory of experimental design. We read foundational statistical ideas about how to quantify the amount of information an experiment provides, studied emerging ML methods and algorithms for optimizing experimental designs, and looked at how these ideas are being applied in science, with a focus on protein design and engineering.</p>
+    </div>
+
+    <div class="callout">
+      Thursdays 1–2:30 pm, Room 207-222 (DTU Chemistry). First meeting: September 25.<br>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8FExycwL2YYhU1ZjuRdjUoFsjAS0ELkdbVQPt7L9CZOxfmg/viewform?usp=header" target="_blank">Sign up for the mailing list</a>
+    </div>
+
+    <div class="reading-list">
+      <h3>Reading List</h3>
+      <div class="reading-item"><span class="num">1.</span> <span class="topic">Introduction and overview.</span><br>Rainforth et al. 2024. <em>Modern Bayesian Experimental Design.</em> <a href="https://projecteuclid.org/journals/statistical-science/volume-39/issue-1/Modern-Bayesian-Experimental-Design/10.1214/23-STS915.short" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">2.</span> <span class="topic">Lindley's foundational paper.</span><br>D.V. Lindley. 1956. <em>On a Measure of the Information Provided by an Experiment.</em> <a href="https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-27/issue-4/On-a-Measure-of-the-Information-Provided-by-an-Experiment/10.1214/aoms/1177728069.full" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">3.</span> <span class="topic">Experimental design for protein design.</span><br>Romero et al. 2012. <em>Navigating the protein fitness landscape with Gaussian processes.</em> <a href="https://www.pnas.org/doi/10.1073/pnas.1215251110" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">4.</span> <span class="topic">Advances in experimental design for proteins.</span><br>Frey et al. 2025. <em>Lab-in-the-loop therapeutic antibody design with deep learning.</em> <a href="https://www.biorxiv.org/content/10.1101/2025.02.19.639050v2" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">5.</span> <span class="topic">Optimizing designs with stochastic gradients.</span><br>Foster et al. 2020. <em>A Unified Stochastic Gradient Approach to Designing Bayesian-Optimal Experiments.</em> <a href="https://proceedings.mlr.press/v108/foster20a.html" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">6.</span> <span class="topic">Building training datasets with large scale screens.</span><br>Krishnan et al. 2025. <em>A generative deep learning approach to de novo antibiotic design.</em> <a href="https://www.cell.com/cell/abstract/S0092-8674(25)00855-4" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">7.</span> <span class="topic">Optimal information gathering for prediction.</span><br>Smith et al. 2023. <em>Prediction Oriented Bayesian Active Learning.</em> <a href="https://proceedings.mlr.press/v206/bickfordsmith23a/bickfordsmith23a.pdf" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">8.</span> <span class="topic">Compressed screens.</span><br>Liu et al. 2024. <em>Scalable, compressed phenotypic screening using pooled perturbations.</em> <a href="https://www.nature.com/articles/s41587-024-02403-z" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">9.</span> <span class="topic">Stochastic variational design for compressed experiments.</span><br>Grover and Ermon. 2019. <em>Uncertainty Autoencoders.</em> <a href="https://proceedings.mlr.press/v89/grover19a.html" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">10.</span> <span class="topic">Information for optimization.</span><br>Russo and van Roy. 2014. <em>Learning to Optimize via Information-Directed Sampling.</em> <a href="https://papers.nips.cc/paper_files/paper/2014/hash/90720a2fcc41f9332e6a1558da327089-Abstract.html" target="_blank">link</a></div>
+      <div class="reading-item"><span class="num">11.</span> <span class="topic">Optimal nonparametric design and theory.</span><br>Huszar and Duvenaud. 2012. <em>Optimally-Weighted Herding is Bayesian Quadrature.</em> <a href="https://www.auai.org/uai2012/papers/213.pdf" target="_blank">link</a></div>
+    </div>
+
+    <div class="about-group">
+      <strong>About ML &amp; Molecules:</strong> ML &amp; Molecules is a reading group organized by Asst. Prof. Eli Weinstein (DTU Chemistry) and Assoc. Prof. Jes Frellsen (DTU Compute). It focuses on fundamental probabilistic machine learning and its intersection with the molecular sciences. Everyone in the group presents a paper, in a rotating schedule. It is open to students, postdocs, faculty and staff. It is not a formal course, but can optionally be taken as a project course for course credit.<br>
+      Contact: enawe [at] dtu.dk
+    </div>
+  </div>
+
+</div>
+
+</main>
+
+<script>
+(function () {
+  var navLinks = document.querySelectorAll('#main-nav a');
+  var pages = document.querySelectorAll('.page');
+  var teachingLinks = document.querySelectorAll('#teaching-nav a');
+  var teachingPages = document.querySelectorAll('.teaching-page');
+
+  function route() {
+    var hash = location.hash.slice(1) || 'home';
+    var parts = hash.split('/');
+    var pageId = parts[0];
+    var sub = parts[1] || null;
+
+    pages.forEach(function (p) { p.classList.toggle('active', p.id === pageId); });
+    navLinks.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + pageId); });
+
+    if (pageId === 'publications' && sub) {
+      var target = document.getElementById(sub);
+      if (target) setTimeout(function() { target.scrollIntoView({ behavior: 'smooth' }); }, 0);
+    }
+
+    if (pageId === 'teaching') {
+      if (sub) {
+        teachingPages.forEach(function (p) { p.classList.toggle('active', p.id === 'course-' + sub); });
+        teachingLinks.forEach(function (a) { a.classList.toggle('active', a.getAttribute('href') === '#' + hash); });
+      } else {
+        teachingPages.forEach(function (p, i) { p.classList.toggle('active', i === 0); });
+        teachingLinks.forEach(function (a, i) { a.classList.toggle('active', i === 0); });
+      }
+    }
+  }
+
+  // Publication category scroll
+  document.querySelectorAll('[data-scroll]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      var el = document.getElementById(this.getAttribute('data-scroll'));
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+
+  window.addEventListener('hashchange', route);
+  route();
+})();
+</script>
+
+</body>
+</html>

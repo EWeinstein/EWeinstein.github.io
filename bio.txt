@@ -1,0 +1,8 @@
+Eli Weinstein is an Assistant Professor in the Department of Chemistry at the Technical University of Denmark.
+He is a member of European Laboratory for Learning and Intelligent Systems (ELLIS), the Pioneer Centre for AI, and the Center for Translational Protein Design at DTU.
+He serves as Director of Machine Learning Research at Jura Bio, a biotechnology startup.
+His research is on fundamental machine learning methodology for molecules, including probabilistic and generative methods for steering molecular design, synthesis and screening.
+Previously, he was a postdoctoral research scientist at Columbia University with David Blei, in the Departments of Computer Science and Statistics (2022-2025).
+He completed his PhD in Biophysics at Harvard in 2022, advised by Debora Marks and Jeffrey Miller, and supported by a Hertz Foundation Fellowship. 
+He received an A.B. in Chemistry and Physics with highest honors from Harvard, advised by Adam Cohen (2016). 
+His work has been published in venues including NeurIPS, ICML, JMLR and Nature Biotechnology, and has received best paper awards from the New England Statistical Society (2021, 2023) and the Molecular Machine Learning Conference (2024).
